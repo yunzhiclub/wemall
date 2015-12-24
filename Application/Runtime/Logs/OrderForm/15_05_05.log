@@ -1,0 +1,900 @@
+[ 2015-05-05T08:50:03+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/orderForm/orderManager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `module` = 'OrderForm' AND `controller` = 'OrderManager' AND `action` = 'index' LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `module` = 'OrderForm' AND `controller` = 'OrderManager' AND `action` = 'index' LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 36 ) ORDER BY sort desc  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 43 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 44 ) ORDER BY sort desc  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 45 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `module` = 'OrderForm' AND `controller` = 'OrderManager' AND `action` = 'index' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.256015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.248015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.255015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.276016s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bbbf7050b05668fa13be77e37d2e0d3d.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.258015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.276016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-05T13:05:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/orderForm/orderManager/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `module` = 'OrderForm' AND `controller` = 'OrderManager' AND `action` = 'index' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `module` = 'OrderForm' AND `controller` = 'OrderManager' AND `action` = 'index' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 36 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 43 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 44 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 45 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 97 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `module` = 'OrderForm' AND `controller` = 'OrderManager' AND `action` = 'index' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.223012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.170009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.187010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.249014s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\bbbf7050b05668fa13be77e37d2e0d3d.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.188010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.202011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-05T15:20:36+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: product D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\GoodsModel.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 579 行.
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0140s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.244012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.221011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.240012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.244012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.243012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.250012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.271012s ]
+NOTIC: [8] Undefined variable: subWeight D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 97 行.
+NOTIC: [8] Undefined variable: subWeight D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 99 行.
+NOTIC: [8] Undefined variable: subWeight D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 100 行.
+NOTIC: [8] Undefined variable: maxhomefreight D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 101 行.
+NOTIC: [8] Undefined variable: maxhomefreight D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 110 行.
+NOTIC: [8] Undefined variable: maxcoupon D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 119 行.
+NOTIC: [8] Undefined variable: subTotal D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 119 行.
+NOTIC: [8] Undefined variable: maxhomefreight D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 119 行.
+NOTIC: [8] Undefined variable: maxcoupon D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 119 行.
+NOTIC: [8] Undefined variable: maxcoupon D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1e90bd933c52ba47547c020538d1c7ba.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.253012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.280013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.312014s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.285013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.310014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-05-05T15:22:29+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0070s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.153009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.147009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.153009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.158009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.155009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.158009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.176010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.160009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.183011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.192011s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.185011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.193011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-05T15:22:30+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.178008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.161007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.178008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.182008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.181008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.180008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.212008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.181008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.227009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.238009s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.229009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.242009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-05T15:29:55+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.209012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.201011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.211012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.217012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.213012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.217012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.236013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.218012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.244014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.254014s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.246014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.255014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-05T15:35:07+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.314018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.307017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.313018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.318018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.314018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.318018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.336018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.319018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.343019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.351019s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.343019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.351019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-05T15:41:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.182009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.177009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.181009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.186010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.183009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.186010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.208011s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1194a244a6b89b39ff7d97e3676c8307.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.187010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.216011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.225012s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.218011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.227012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-05T15:42:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.197009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.191008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.197009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.202009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.198009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.201009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.221010s ]
+
+[ 2015-05-05T15:42:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.176006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.171006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.178007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.181007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.179007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.185007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.211008s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1194a244a6b89b39ff7d97e3676c8307.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.186007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.223009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.233010s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.224009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.239010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-05T15:44:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.195011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.188011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.194011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.199011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.195011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.199011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.221013s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1194a244a6b89b39ff7d97e3676c8307.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.199011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.230013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.239014s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.231013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.240014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-05T15:44:12+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `name`,`value` FROM `wemall_config` WHERE ( type=5 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND ( state=1 )  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.238014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.228013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.238013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.247015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.240014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.249014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.276016s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\1194a244a6b89b39ff7d97e3676c8307.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.251015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.289016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.300018s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\OrderForm\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.291017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.303017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-05T15:55:32+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/index.html?ids=[%224%22,%2251%22,%2241%22]&counts=[%221%22,%224%22,%221%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

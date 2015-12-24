@@ -1,0 +1,2309 @@
+[ 2015-04-17T08:18:19+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.059004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 5 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.294017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.252015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.305018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.325019s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.308018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.335019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:18:46+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/delete/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.071004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.070004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: DELETE FROM `wemall_admin_menu` WHERE `id` = 5 [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.153009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.153009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:18:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.071004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.071004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.250014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.240013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.252014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.263015s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.253014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.264015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-17T08:18:55+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/add/id/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.067003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.090005s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 4 行.
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 7 行.
+NOTIC: [8] Undefined index: module D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 10 行.
+NOTIC: [8] Undefined index: controller D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 14 行.
+NOTIC: [8] Undefined index: action D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 18 行.
+NOTIC: [8] Undefined index: is_dev D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 24 行.
+NOTIC: [8] Undefined index: sort D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 29 行.
+NOTIC: [8] Undefined index: hide D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.092005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.104006s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.105006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:19:38+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.075004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.078005s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: INSERT INTO `wemall_admin_menu` (`pid`,`title`,`module`,`controller`,`action`,`is_dev`,`sort`,`hide`) VALUES ('0','参数设置','System','Index','index','0','0','0') [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.115007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.116007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:19:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.073004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.074004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.267015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.258015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.269015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.281016s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.271016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.282016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:19:59+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067003s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.102006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.103005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.115007s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.105006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.116006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:20:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.064003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.065004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0060s ]
+SQL: UPDATE `wemall_admin_menu` SET `pid`='0',`title`='幻灯片管理',`module`='SlideShow',`controller`='Index',`action`='index',`is_dev`='1',`sort`='0',`hide`='0' WHERE `id` = 6 [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.102006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.098005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.102006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:20:07+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.073004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.073004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.263015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.254015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.265015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.279016s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.267015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.285016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2015-04-17T08:20:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.232014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.224013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.234014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.246014s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.235014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.248015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-04-17T08:22:37+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.090005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.087005s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.273015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.261015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.275016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.293016s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.279016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.290017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:22:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.085204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.065603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.072604s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.121206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.100605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.111606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.138207s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.112606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.127607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-17T08:22:47+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.074004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.075005s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: UPDATE `wemall_admin_menu` SET `pid`='0',`title`='系统管理',`module`='System',`controller`='Index',`action`='index',`is_dev`='0',`sort`='0',`hide`='0' WHERE `id` = 19 [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.111006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.106006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.112007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T08:22:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067004s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.239014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.229013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.243014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.254015s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.245014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.256015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-17T08:29:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.082005s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.255015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.247014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.257015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.269015s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.259015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.269016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-17T08:30:00+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.081005s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.127007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.126007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.144008s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.129007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.143008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-17T08:39:29+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html??XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0216s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.091803s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.085803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.087802s ]
+NOTIC: [8] Undefined variable: subMenu D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\AdminController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.281413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.272413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.281412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.300414s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.287413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.304414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-17T14:11:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.914079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.907077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.915078s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 101 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-2.192091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-2.178089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-2.197090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-2.210092s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-2.200090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-2.211091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T14:11:49+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.071003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.058002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.068003s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 101 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.330014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.320014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.331015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.336015s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.333015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.343015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-17T14:12:53+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.393021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.382021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.391021s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 101 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.612030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.601030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.613030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.634030s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.615030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.624031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T14:13:01+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/addSub/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.075004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.068003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.076004s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 101 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.137006s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 7 行.
+NOTIC: [8] Undefined index: module D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 10 行.
+NOTIC: [8] Undefined index: controller D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 14 行.
+NOTIC: [8] Undefined index: action D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 18 行.
+NOTIC: [8] Undefined index: is_dev D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 24 行.
+NOTIC: [8] Undefined index: sort D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 29 行.
+NOTIC: [8] Undefined index: hide D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\4b310855aa2f594c801dfc5b2eeaaff7.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.126006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.146006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.164007s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.148006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.162007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-17T14:15:45+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.132005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.127005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.132006s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 103 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0130s ]
+SQL: INSERT INTO `wemall_admin_menu` (`pid`,`title`,`module`,`controller`,`action`,`is_dev`,`sort`,`hide`) VALUES ('19','微信菜单设置','System','CustomerMenu','index','0','0','0') [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.273011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.219008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.271011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-17T14:15:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.086004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.069003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.089005s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 103 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 20 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.327015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.308014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.322015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.340016s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.322015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.337016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-17T14:17:32+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.097004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.092004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.099004s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 103 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 20 ) ORDER BY sort desc  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.313014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.307013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.374015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.383016s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.375016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.386016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T15:25:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.143008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.141008s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0190s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 103 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0220s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 20 ) ORDER BY sort desc  [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.738042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.647037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.737042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.753043s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.740042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.751043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-17T15:27:27+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.069004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.069004s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 103 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 20 ) ORDER BY sort desc  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.295017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.286016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.297017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.308017s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.299017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.309018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-17T15:28:33+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/menu/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.097001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.097001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.107001s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Menu' AND `controller` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 32 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: i D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 103 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 14 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 1 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 2 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 3 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 4 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 20 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 6 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 7 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 8 ) ORDER BY sort desc  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 10 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 13 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 16 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 17 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 18 ) ORDER BY sort desc  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 164 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\Menu\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.364012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.352012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.374012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.391012s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Menu\bbbf7050b05668fa13be77e37d2e0d3d.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.374012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.395013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

@@ -1,0 +1,1244 @@
+[ 2015-06-01T08:01:49+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+
+[ 2015-06-01T08:14:42+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.936001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.936001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.936001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.951601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.951601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.951601s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.154402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.154402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.154402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.185602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.170002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.185602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.216802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.185602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.216802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.216802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.216802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.232402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.248002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.232402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.248002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.248002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.248002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.248002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.263602s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\f64d738dec9062ca568444d9a07e17dd.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.263602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.263602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-01T08:14:42+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Home/Index/Uploads/CountryIcon/9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-01T08:41:55+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.060802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.060802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.076402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.076402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.076402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.076402s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.138802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.138802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.138802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.154402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.138802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.154402s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name='is_good' value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name='is_good' value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name='is_good' value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name='is_good' value=0
+
+[ 2015-06-01T08:42:19+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.608401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.624001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.624001s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.686401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.686401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.686401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.686401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.686401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.702001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name='slide.is_good' value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name='slide.is_good' value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name='slide.is_good' value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name='slide.is_good' value=0
+
+[ 2015-06-01T08:42:29+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.858001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.858001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.873601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.873601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.873601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.889202s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.967202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.967202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.967202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.967202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.967202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.967202s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="slide.is_good" value=0
+
+[ 2015-06-01T08:43:01+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.513202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.513202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.528802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.528802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.528802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.544402s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.622403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.622403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.622403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.622403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.622403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.638003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="slide.is_good" value=0
+
+[ 2015-06-01T08:43:06+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.624001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.624001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.624001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.639601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.624001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.639601s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.702001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.702001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.702001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.702001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.702001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.702001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;slide.is_good&quot; value=0 /&gt;&lt;/tpl&gt; D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                      ^ D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="slide.is_good" value=0
+
+[ 2015-06-01T08:43:33+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.717601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.717601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.733201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.733201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.733201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.733201s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.811201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.795601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.811201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.811201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.811201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.811201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.811201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.811201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.826801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.826801s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.826801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.826801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.842401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.826801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.842401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.842401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.842401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.842401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.858001s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\f64d738dec9062ca568444d9a07e17dd.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.858001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.873601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-01T08:44:10+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 661  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 655  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 652  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 649  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 658  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 670  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 679  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 688  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 697  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 706  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 184 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.045202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.045202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.060802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.060802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.060802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.076402s ]
+SQL: SHOW COLUMNS FROM `wemall_slide_show` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_slide_show` WHERE `status` = 1 ORDER BY weight desc LIMIT 6   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 804  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 805  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 803  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.154402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.154402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.154402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.154402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.154402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.170002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.170002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.170002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.170002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.185602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.170002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.185602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.201202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.185602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.201202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.201202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.201202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.201202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.216802s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\f64d738dec9062ca568444d9a07e17dd.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.201202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.216802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

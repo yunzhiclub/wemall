@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>微信JS-SDK Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body ontouchstart="">
+<div class="wxapi_container">
+    <div class="wxapi_index_container">
+      
+    </div>
+    <div class="lbox_close wxapi_form">
+      <h3 id="menu-basic">基础接口</h3>
+      <span class="desc">判断当前客户端是否支持指定JS接口</span>
+      <button class="btn btn_primary" id="checkJsApi">checkJsApi</button>      
+      <h3 id="menu-pay">微信支付接口</h3>
+      <span class="desc">发起一个微信支付请求</span>
+      <button class="btn btn_primary" id="chooseWXPay">chooseWXPay</button>
+      <h3 id="menu-pay">收货地址</h3>
+      <span class="desc">发起一个收货地址调用请求</span>
+      <button class="btn btn_primary" id="chooseAddress">选择收货地址</button>
+    </div>
+  </div>
+</body>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+  wx.config({
+      debug: true,
+      appId: '{$signPackage.appId}',
+      timestamp: {$signPackage.timestamp},
+      nonceStr: '{$signPackage.nonceStr}',
+      signature: '{$signPackage.signature}',
+      jsApiList: [
+        'checkJsApi',
+        'onMenuShareTimeline',
+        'onMenuShareAppMessage',
+        'onMenuShareQQ',
+        'onMenuShareWeibo',
+        'hideMenuItems',
+        'showMenuItems',
+        'hideAllNonBaseMenuItem',
+        'showAllNonBaseMenuItem',
+        'translateVoice',
+        'startRecord',
+        'stopRecord',
+        'onRecordEnd',
+        'playVoice',
+        'pauseVoice',
+        'stopVoice',
+        'uploadVoice',
+        'downloadVoice',
+        'chooseImage',
+        'previewImage',
+        'uploadImage',
+        'downloadImage',
+        'getNetworkType',
+        'openLocation',
+        'getLocation',
+        'hideOptionMenu',
+        'showOptionMenu',
+        'closeWindow',
+        'scanQRCode',
+        'chooseWXPay',
+        'openProductSpecificView',
+        'addCard',
+        'chooseCard',
+        'openCard'
+      ]
+  });
+
+wx.ready(function () {
+    //检测是否支持
+});
+
+  
+
+
+</script>
+</html>

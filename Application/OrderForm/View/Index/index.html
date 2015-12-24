@@ -1,0 +1,156 @@
+<section>
+<!--<form onsubmit="javascript:return check(theForm);" action="order.php?act=done" method="post" name="theForm" id="theForm">-->
+<div class="pending-detial">
+    
+   
+    <!--收货地址begin-->
+    <h2>收货人信息</h2>
+    <div class="user-info">    
+        请输入身份证号码：<input type="text" name="idno" id="idno" class="idno"/>
+        <ul class="picInfo" onclick="selectAdress()">
+            <li class="title">联络贵宾：<span class="user" id="picName">请点击选择</span></li>
+            <li class="title">联络电话：<span class="user" id="picPhone">请点击选择</span></li>
+            <li class="add">收货地址：<span class="user" id='picAddress'>请点击选择</span></li>  
+        </ul>
+        
+    </div><!--收货地址end--> 
+    
+    <!--身份证信息-->
+    <h2>请上传身份证信息</h2>
+    <div class="user-info" onclick="">
+        <ul>
+            <li>
+                <div class="idPic"><img id="fontPic" onclick="chooseImage($(this))" src="<php>echo add_root_path('/theme/wemall/images/idFront.png');</php>" alt="身份证正面" id="idFrontImage"/></div>
+            </li>
+                <div class="idPic"><img id="backPic" onclick="chooseImage($(this))" src="<php>echo add_root_path('/theme/wemall/images/idBack.png');</php>" alt="身份证反面" id="idFrontImage"/></div>
+        </ul>
+    </div>
+    <!--身份证信息end-->
+    
+    <!--商品列表begin-->  
+       
+    <foreach name="product" item="soure" key="skey">
+        <foreach name="soure" item="sLogistic" key="lkey">
+            <h2>订单信息({++$i})</h2> 
+            <div class="list">   
+                <ul>
+<!--            <php>$subTotal = 0;$homefreight = 0; $subWeight = 0;$maxhomefreight = 0;$maxcoupon = 0;</php>-->
+            <foreach name="sLogistic" item="value" key="key">                      
+                <li class="first clearfix" id="good-{$value.id}" data-id="{$value.id}" data-price="{$value['purchasing_price']}" data-count="{$value.product_quantity}"><!--  商品 -->        
+                <a href="goods.php?id=33" target="_blank"><img src="{$value.focus_pictures.url}"></a>          
+                <div class="pro-info">
+                    <a href="goods.php?id=4" target="_blank">{$value.name}</a>
+                    <p class="price">海外同步价：<strong><php>echo format_money($value['purchasing_price']);</php>元</strong><br>
+                        净重：{$value.weight}<br>
+                        国内邮费：<php>echo format_money($value['domestic_transportation_expenses']);</php>元<br>
+                        优惠政策：{$value['discount_way']}</p>
+
+                        <php>                   
+                            if( $maxhomefreight<$value['domestic_transportation_expenses']){
+                            $maxhomefreight = $value['domestic_transportation_expenses'];
+                            }
+                            if( $maxcoupon<$value['discount_amount']){
+                            $maxcoupon = $value['discount_amount'];
+                            }                        
+                            $weight = $value['weight']*$value['product_quantity'];
+                            $subWeight += $weight;                       
+                        </php>
+                    <gt name="value.discount_amount" value="0">
+                    <p class="c">优惠金额：<php>echo format_money($value['discount_amount']);</php>元</p></gt>
+                </div>
+                <span style="font-size:20px;">×{$value.product_quantity}</span>
+                </li>
+                <php>$countTotal += $value['product_quantity']; $subTotal += $value['product_quantity']*$value['purchasing_price']; </php>
+            </foreach>
+            <li class="total">                 
+                来源：物流方式：总商品金额：￥<php>echo format_money($subTotal);</php>。运费：￥ 。优惠政策:。优惠金额:￥。应付总额：￥ 。
+            </li>
+        </foreach>
+        </ul>
+        </div><!--商品列表end-->
+
+    <div class="user-info" onclick="">
+    </div>
+        <div onclick="onFreight()">
+        <tr>
+            <td class="border" colspan="2" style="padding:20px 0px;" align="center" bgcolor="#ffffff">
+                <div>
+                    <p class="b">运费说明</p>                                             
+                    <div class="freight" id="onfreight" style="display: none;">
+                        <ul><li>{$freight[5]['SYSTEM_FREIGHT_EXPLAIN1']}</li><li>{$freight[6]['SYSTEM_FREIGHT_EXPLAIN2']}</li><li>{$freight[7]['SYSTEM_FREIGHT_EXPLAIN3']}</li></ul>
+                        </div>                        
+                </div>
+            </td>
+        </tr>
+    </div>
+    <div class="other_list">
+        <h3>其他信息</h3>
+            <table align="center" border="0" cellpadding="5" cellspacing="1" width="99%">               
+            <tbody><!--  是否使用红包 -->
+            <tr>
+                <td class="border" bgcolor="#ffffff"><strong>优惠券:</strong>本次可使用{$countTotal}张，已使用<span class="couponTotal">0</span>张</td>
+            </tr>
+            <tr> 
+                <td>
+                <foreach name="coupon" item="value">
+                    <div><input id="coupon{$value.id}" class="coupon" type="checkbox" data-id="{$value.id}" data-value="{$value.cover}">
+                            <label for="coupon{$value.id}">面额：<php>echo format_money($value['cover']);</php>
+                            使用期限：<php>echo date("Y-m-d H:i",$value['end_time']);</php>
+                            </label>
+                    </div>
+                 </foreach>
+                </td>
+
+            </tr>
+            
+            <tr>
+                <td class="border" colspan="2" style="padding:20px 0px;" align="center" bgcolor="#ffffff">
+                    <div id="ECS_ORDERTOTAL">
+                    <table border="0" cellpadding="5" cellspacing="1" width="100%">
+                            <tbody>
+                                <tr><td> 优惠总额: <font id="totalFvorable" data-value="{$maxcoupon}" class="f4_b"><php>$total = $subTotal+$interfreight+$maxhomefreight;$deal = $total-$maxcoupon;echo format_money($maxcoupon);</php>元</font></td>
+                                </tr>
+                                <tr><td> 商品总价（含运费）: <font id="total" data-value="{$total}" class="f4_b"><php> echo format_money($total);</php></font>元</td>
+                                </tr>                             
+                                <tr><td> 应付款金额: <font id="deal" data-value="{$deal}" class="f4_b"><php> echo format_money($deal);</php></font>元</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                    </div>
+                </td>
+            </tr>            
+         
+        </tbody>
+        </table>
+    </div>
+    <!--支付方式begin-->
+    <div class="zhifu">
+        <h3>支付方式</h3>
+        <ul>        
+            <li>
+                <div><input class="dianxuan" id="wxpay" checked="checked" name="payment" value="0" onclick="selectPayment(this)" type="radio"></div>
+                <div><label for="wxpay"><img src="<php>echo add_root_path('/theme/wemall/images/wxpay.png');</php>" alt="微信支付" /></label></div>
+                
+           
+            </li>
+       
+            <li>
+                <div class="dianxuan"><input id="otherpay" name="payment" value="1" onclick="selectPayment(this)" type="radio"></div>
+                <div><label for="otherpay"><img class="img" src="<php>echo add_root_path('/theme/wemall/images/alipay.jpg');</php>" alt="其它支付" /></label></div>
+                <div>这里调用系统设置里的其它支付方式说明</div>
+          
+            </li>
+            
+        </ul>
+    </div><!--支付方式end-->
+    <button onclick="update()" id="Submit" class="ddbtn" name="Submit" value="立即支付">立即支付</button>
+</div>
+<!--</form>-->
+</section>
+{$js}
+{$css}
+<script>
+    function onFreight(){
+        $("#onfreight").toggle(500);
+    }
+</script>

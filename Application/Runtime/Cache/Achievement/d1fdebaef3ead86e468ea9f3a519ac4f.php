@@ -1,0 +1,95 @@
+<?php if (!defined('THINK_PATH')) exit();?><h4><a href=""><<返回</a></h4>
+<form id="payForm" class="form-horizontal" method="post" name="pay" action="<?php echo ($actionUrl["postUrl"]); ?>">
+    <input type="hidden" name="id" value="<?php echo ($data["id"]); ?>" />
+    <div class="control-group">
+        <label class="control-label" for="openid">姓名：</label>
+        <div class="controls">
+            <input id="openid" type="text" disabled="disabled" name="openid" value="<?php echo ($data["openid"]["nickname"]); ?>">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="account_number">openid：</label>
+        <div class="controls">
+            <p> <?php echo ($data["openid"]["openid"]); ?></p>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="duepay">应发提成：</label>
+        <div class="controls">
+            <input id="duepay"  disabled="disabled" type="text" name="duepay" value="<?php echo format_money($data['due_pay'] ); ?>" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="real_pay">实发：</label>
+        <div class="controls">
+            <input id="real_pay" type="text" name="real_pay" value="<?php if($data['real_pay'] == 0) echo format_money($data['due_pay']); else echo $data['real_pay']; ?>" /><span class="tips"><span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="account_number">账号：</label>
+        <div class="controls">
+            <input id="account_number" type="hidden" name="account_number" value="<?php echo ($data["openid"]["account"]); ?>"><?php echo ($data["openid"]["account"]); ?>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="serial_number">流水号：</label>
+        <div class="controls">
+            <input id="serial_number" type="text" name="serial_number" value="">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="phone_number">手机号：</label>
+        <div class="controls">
+            <input id="phone_number"  disabled="disabled" type="text" name="phone_number" value="<?php echo ($data["openid"]["phone_number"]); ?>">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="direct_result">直销业绩：</label>
+        <div class="controls">
+            <input id="direct_result"  disabled="disabled" type="text" name="direct_result" value="<?php echo format_money($data['direct_result']); ?>">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="direct_base">直销基数：</label>
+        <div class="controls">
+            <input id="direct_base"  disabled="disabled" type="text" name="direct_base" value="<?php echo format_money($data['direct_base']); ?>" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="direct_coe">直销系数：</label>
+        <div class="controls">
+            <input id="direct_coe"  disabled="disabled" type="text" name="direct_coe" value="<?php echo ($data["direct_coe"]); ?>">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="line_result">分销业绩：</label>
+        <div class="controls">
+            <input id="line_result"  disabled="disabled" type="text" name="line_result" value="<?php echo format_money($data['line_result']); ?>" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="line_base">线销基数：</label>
+        <div class="controls">
+            <input id="line_base"  disabled="disabled" name="line_base" type="text" value="<?php echo format_money($data['line_base']); ?>" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="line_coe">线销系数：</label>
+        <div class="controls">
+            <input id="line_coe"  disabled="disabled" name="line_coe" type="text" value="<?php echo ($data["line_coe"]); ?>">
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <label class="control-label">备注：</label>
+        <div class="controls">
+            <textarea class="input" name='remark'></textarea>
+        </div>
+    </div>
+  
+    <div class="form-actions">
+        <button class="btn btn-primary" type="submit" onclick="valite()">发放</buton>
+    </div>
+    </form>  
+
+<?php echo ($js); ?>

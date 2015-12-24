@@ -1,0 +1,78 @@
+<div class="shopping-cart row" id="ds_gal">
+    <!--顶部begin-->
+        
+        <div class="count col-xs-12 totalCount">
+            共<span id="totalCount"></span>件商品。<!--1.点击商品后跳转。2.按来源物流分类-->
+        </div>
+      <!--a class="continue" href="{$indexUrl}">继续购物&gt;&gt;</a--> 
+    <!--顶部end-->
+    <!--商品列表begin-->
+          <foreach name="shoppingcart" item="soure" key="skey">          
+            <foreach name="soure" item="sLogistic" key="lkey">
+                <php>$totalFee = 0;</php>
+                <div class="count col-xs-12"><!--相同来源相同物流方式订单开始-->
+                    <foreach name="sLogistic" item="value" key="key">
+                        <!--商品记录开始-->
+                        <div class="row line" id="good{$value.id}" data-id={$value.id} data-price="{$value.purchasing_price}" data-count="{$value.product_quantity}" data-mincount="{$value.shop_lower_limit}" data-maxcount="{$value.shop_superior_limit}">
+                            <div class="col-xs-4"> 
+                                <a href="javascript:void(0);"><img class="img-rounded img-responsive" src="{$value.focus_pictures.url}"></a> 
+                            </div>
+                            <div class="col-xs-7">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <span class="name">{$value.name}</span>
+                                        <div class="row rowmoney">
+                                            <div class="col-xs-12">
+                                            <span class="money"> ￥<php>$totalFee += ($value['purchasing_price']*$value['product_quantity']);
+                                                                    echo format_money($value['purchasing_price']);</php></span>
+                                            </div>
+                                    <gt name="value.discount_amount" value="0"><p class="price">{$value.}</p></gt>
+                                        </div>
+                                    
+                                        
+                                    <div class="row rowjiajian">
+                                        <div class="col-xs-3" style="padding-right:0px;"><span class="shuliang">数量</span></div>
+                                        <div style="width:160px">    
+                                                <div class="input-group">
+                                                    <span class="input-group-btn" onclick="change_num($(this));" data-type="red">
+                                                      <button class="btn btn-default" type="button">-</button>
+                                                    </span>
+                                                    <input type="text" class="form-control number" id="count{$value.id}" data-type="change" value="{$value.product_quantity}" onblur="change_num($(this))" >
+                                                    <span class="input-group-btn"  onclick="change_num($(this))" data-type="add">
+                                                      <button class="btn btn-default" type="button">+</button>
+                                                    </span>
+                                                </div><!-- /input-group -->
+                                        </div>
+                                    </div>
+                                <input type="hidden" name="rowid" value="a239d26ca5967a553b6db6489b378e17">
+                                
+                                </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="col-xs-1"><a class="trash" href="javascript:void(0);" data-id="{$value.id}"><span class="glyphicon glyphicon-trash"></span></a></div> 
+                        <!--商品记录结束-->
+                        </div>
+                    </foreach>
+                </div><!--相同来源相同物流方式订单结束-->
+            </foreach>
+          </foreach>
+    <!--商品列表end-->
+    <!--结算begin-->
+          <div class="col-xs-12">
+          <a href="javascript:void(0);" class="delete-all"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;清空购物车</a>
+          </div>
+        <div class="shifu col-xs-12">
+            <span class="shifu2">实付金额：<strong id="totalFee" class="money">￥<php>echo format_money($totalFee);</php></strong></span>
+        </div>
+
+        <div class="xiadan col-xs-12"> 
+          <a id="pay">
+              <button type="button" class="btn yz-btn btn-block" <eq name="flag" value="1">onclick="location='{$indexUrl}'" >请先添加商品<else/>>立即下单</eq></button></a>
+        </div>
+    <!--结算end-->
+    <!---->
+  </div>
+{$js}
+{$css}

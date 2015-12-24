@@ -1,0 +1,609 @@
+[ 2015-04-27T08:32:55+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Pay/orderSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T08:35:28+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Pay/orderSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T08:37:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Pay/orderSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T14:05:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = '6n17v4yl1l2znlq0bh9h997bdq2qf8jq' AND `sign` = '83A67D7626AADCF6676BE1DDA14A68DC' LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-27T14:08:05+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 19: parser error : Extra content at the end of the document D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;return_code&gt;&lt;![CDATA[SUCCESS]]&gt;&lt;/return_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-27T14:09:12+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 19: parser error : Extra content at the end of the document D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;return_code&gt;&lt;![CDATA[SUCCESS]]&gt;&lt;/return_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:09:38+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 19: parser error : Extra content at the end of the document D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;return_code&gt;&lt;![CDATA[SUCCESS]]&gt;&lt;/return_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-27T14:10:03+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 19: parser error : Extra content at the end of the document D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;return_code&gt;&lt;![CDATA[SUCCESS]]&gt;&lt;/return_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-27T14:10:13+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 19: parser error : Extra content at the end of the document D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;return_code&gt;&lt;![CDATA[SUCCESS]]&gt;&lt;/return_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-27T14:15:08+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 19: parser error : Extra content at the end of the document D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;return_code&gt;&lt;![CDATA[SUCCESS]]&gt;&lt;/return_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-27T14:15:57+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 'm1zbs66ka60mjdzez35rk12nq0hpdvi9' AND `sign` = '767815576D486FBAF05CE46438B4D060' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0230s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='1',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='m1zbs66ka60mjdzez35rk12nq0hpdvi9',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='14',`result_code`='SUCCESS',`sign`='767815576D486FBAF05CE46438B4D060',`time_end`='20150424093414',`total_fee`='1',`trade_type`='JSAPI',`transaction_id`='1002420415201504240085604509' WHERE `id` = 14 [ RunTime:0.0220s ]
+SQL: UPDATE `wemall_order_form` SET `order_status`='0' WHERE `id` = 14 [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-27T14:27:27+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 8: parser error : Opening and ending tag mismatch: err_code line 6 and result_code D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;result_code&gt;&lt;![CDATA[FAIL]]&gt;&lt;/result_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	                                           ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:28:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 8: parser error : Opening and ending tag mismatch: err_code line 6 and result_code D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;result_code&gt;&lt;![CDATA[FAIL]]&gt;&lt;/result_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	                                           ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-04-27T14:29:05+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 8: parser error : Opening and ending tag mismatch: err_code line 6 and result_code D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;result_code&gt;&lt;![CDATA[FAIL]]&gt;&lt;/result_code&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	                                           ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:30:27+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 'm1zbs66ka60mjdzez35rk12nq0hpdvi9' AND `sign` = '767815576D486FBAF05CE46438B4D060' LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:33:08+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 5: parser error : Opening and ending tag mismatch: err_code line 3 and mch_id D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;mch_id&gt;&lt;![CDATA[1236255202]]&gt;&lt;/mch_id&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	                                       ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:33:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 4: parser error : Sequence ']]&gt;' not allowed in content D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;err_code_des&gt;![CDATA[sfefdfsfd]]&gt;&lt;/err_code_des&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	              ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 4: parser error : Sequence ']]&gt;' not allowed in content D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;err_code_des&gt;![CDATA[sfefdfsfd]]&gt;&lt;/err_code_des&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	                               ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 4: parser error : internal error: detected an error in element content D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;err_code_des&gt;![CDATA[sfefdfsfd]]&gt;&lt;/err_code_des&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	                               ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 4: parser error : Extra content at the end of the document D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	&lt;err_code_des&gt;![CDATA[sfefdfsfd]]&gt;&lt;/err_code_des&gt; D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+NOTIC: [2] simplexml_load_string(): 	                               ^ D:\xampp\htdocs\wemall\ThinkPHP\Application\Common\Common\function.php 第 225 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T14:34:42+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 'ejujpapka8bm64qi9wuy13axl3xra4lv' AND `sign` = 'BFAF49AE65A693A528CD6BE3EB623B48' LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: out_trade_no D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\InterfaceController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:37:21+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 'ejujpapka8bm64qi9wuy13axl3xra4lv' AND `sign` = 'BFAF49AE65A693A528CD6BE3EB623B48' LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: out_trade_no D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\InterfaceController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`err_code`='1',`err_code_des`='sfefdfsfd',`mch_id`='1236255202',`nonce_str`='ejujpapka8bm64qi9wuy13axl3xra4lv',`result_code`='FAIL',`sign`='BFAF49AE65A693A528CD6BE3EB623B48',`id`=NULL WHERE `nonce_str` = 'ejujpapka8bm64qi9wuy13axl3xra4lv' AND `sign` = 'BFAF49AE65A693A528CD6BE3EB623B48' [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:50:24+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 't67zk8rkjg09gp51qmg8suru2rjq8558' AND `sign` = '0DEB1B34622F6CE004429ADADD64F18A' LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: out_trade_no D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\InterfaceController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2015-04-27T14:50:47+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 't67zk8rkjg09gp51qmg8suru2rjq8558' AND `sign` = '0DEB1B34622F6CE004429ADADD64F18A' LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: resultCode D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 131 行.
+SQL: SELECT * FROM `wemall_order_form` WHERE `sign` = '0DEB1B34622F6CE004429ADADD64F18A' AND `nonce_str` = 't67zk8rkjg09gp51qmg8suru2rjq8558' LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`err_code`='1',`err_code_des`='sfefdfsfd',`mch_id`='1236255202',`nonce_str`='t67zk8rkjg09gp51qmg8suru2rjq8558',`result_code`='FAIL',`sign`='0DEB1B34622F6CE004429ADADD64F18A' WHERE `id` = 12 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T14:55:55+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 't67zk8rkjg09gp51qmg8suru2rjq8558' AND `sign` = '0DEB1B34622F6CE004429ADADD64F18A' LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T14:56:18+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 't67zk8rkjg09gp51qmg8suru2rjq8558' AND `sign` = '0DEB1B34622F6CE004429ADADD64F18A' LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-27T14:56:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 't67zk8rkjg09gp51qmg8suru2rjq8558' AND `sign` = '0DEB1B34622F6CE004429ADADD64F18A' LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-27T14:58:38+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = 't67zk8rkjg09gp51qmg8suru2rjq8558' AND `sign` = '0DEB1B34622F6CE004429ADADD64F18A' LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T15:00:01+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = '3vbuwv5v71g8qwecrpalm0lsarsa5vqh' AND `sign` = 'F5C42B3F9752B8D0E053DF42795456FB' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: resultCode D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 131 行.
+SQL: SELECT * FROM `wemall_order_form` WHERE `sign` = 'F5C42B3F9752B8D0E053DF42795456FB' AND `nonce_str` = '3vbuwv5v71g8qwecrpalm0lsarsa5vqh' LIMIT 1   [ RunTime:0.0110s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`err_code`='1',`err_code_des`='sfefdfsfd',`mch_id`='1236255202',`nonce_str`='3vbuwv5v71g8qwecrpalm0lsarsa5vqh',`result_code`='FAIL',`sign`='F5C42B3F9752B8D0E053DF42795456FB' WHERE `id` = 12 [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T15:02:37+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = '26waoh5ynoosnnk6ucjaii8qv6nrycjv' AND `sign` = 'EB58E2ECCCEE07DA27A8E869B4B90416' LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: resultCode D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 131 行.
+SQL: SELECT * FROM `wemall_order_form` WHERE `sign` = 'EB58E2ECCCEE07DA27A8E869B4B90416' AND `nonce_str` = '26waoh5ynoosnnk6ucjaii8qv6nrycjv' LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`err_code`='2',`err_code_des`='sfdsed',`mch_id`='1236255202',`nonce_str`='26waoh5ynoosnnk6ucjaii8qv6nrycjv',`result_code`='FAIL',`sign`='EB58E2ECCCEE07DA27A8E869B4B90416' WHERE `id` = 12 [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-27T16:05:33+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T16:09:51+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sign D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\InterfaceController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: sign D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 107 行.
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = '6wwbrqlxi4wr2bx7ecokxcfx9vhsfw9u' AND `sign` = null LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-04-27T16:10:19+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sign D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\InterfaceController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 107 行.
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = '6wwbrqlxi4wr2bx7ecokxcfx9vhsfw9u' AND `sign` = null LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T16:10:47+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: sign D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 107 行.
+SQL: SELECT * FROM `wemall_order_form` WHERE `nonce_str` = '6wwbrqlxi4wr2bx7ecokxcfx9vhsfw9u' AND `sign` = null LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-27T16:24:53+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T16:27:45+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: resultCode D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 134 行.
+NOTIC: [8] Undefined index: sign D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Model\OrderFormModel.class.php 第 146 行.
+SQL: SELECT * FROM `wemall_order_form` WHERE `sign` = null AND `nonce_str` = 'kkavb8d0tgzvx6lztaaro6uxvlladmih' LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T16:28:02+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_order_form` SET `order_status`='0' WHERE `id` = 12 [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='3',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='kkavb8d0tgzvx6lztaaro6uxvlladmih',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='12',`result_code`='SUCCESS',`time_end`='20150427152047',`total_fee`='3',`trade_type`='JSAPI',`transaction_id`='1002420415201504270092957106' WHERE `id` = 12 [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-27T16:29:20+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `wemall_order_form` SET `order_status`='0' WHERE `id` = 12 [ RunTime:0.0060s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='3',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='kkavb8d0tgzvx6lztaaro6uxvlladmih',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='12',`result_code`='SUCCESS',`time_end`='20150427152047',`total_fee`='3',`trade_type`='JSAPI',`transaction_id`='1002420415201504270092957106' WHERE `id` = 12 [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T16:38:13+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `wemall_order_form` SET `order_status`='0' WHERE `id` = 12 [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='3',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='kkavb8d0tgzvx6lztaaro6uxvlladmih',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='12',`result_code`='SUCCESS',`time_end`='20150427152047',`total_fee`='3',`trade_type`='JSAPI',`transaction_id`='1002420415201504270092957106' WHERE `id` = 12 [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T16:38:43+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='3',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='kkavb8d0tgzvx6lztaaro6uxvlladmih',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='12',`result_code`='SUCCESS',`time_end`='20150427152047',`total_fee`='3',`trade_type`='JSAPI',`transaction_id`='1002420415201504270092957106',`order_status`='2' WHERE `id` = 12 [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-27T16:39:10+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='3',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='kkavb8d0tgzvx6lztaaro6uxvlladmih',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='12',`result_code`='SUCCESS',`time_end`='20150427152047',`total_fee`='3',`trade_type`='JSAPI',`transaction_id`='1002420415201504270092957106',`order_status`='2' WHERE `id` = 12 [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T16:39:57+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='3',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='kkavb8d0tgzvx6lztaaro6uxvlladmih',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='12',`result_code`='SUCCESS',`time_end`='20150427152047',`total_fee`='3',`trade_type`='JSAPI',`transaction_id`='1002420415201504270092957106',`order_status`='2' WHERE `id` = 12 [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T16:41:03+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_order_form` SET `appid`='wx15a60486abf8f053',`bank_type`='ICBC_DEBIT',`cash_fee`='3',`fee_type`='CNY',`mch_id`='1236255202',`nonce_str`='kkavb8d0tgzvx6lztaaro6uxvlladmih',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`out_trade_no`='12',`result_code`='SUCCESS',`time_end`='20150427152047',`total_fee`='3',`trade_type`='JSAPI',`transaction_id`='1002420415201504270092957106',`order_status`='2' WHERE `id` = 12 [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-04-27T16:41:42+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T18:23:02+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WxPay/Pay/orderSubmit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T21:12:44+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WxPay/Interface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sign D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\InterfaceController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

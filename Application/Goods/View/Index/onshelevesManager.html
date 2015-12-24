@@ -1,0 +1,40 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>商品号</th>
+            <th>商品名称</th>
+            <th>海外同步价</th>
+            <th>已销数量</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <php>$i=1;</php>
+       <foreach name="MenuList" item="value" key="key">
+            <tr>
+                <td>{$i++}</td>
+                <td>{$value.name}</td>
+                <td><php>echo format_money($value['international_price']);</php></td>
+            <td><eq name='$value.weight' value="">0<else/>1</eq></td>    
+            <td>
+                <a href="{$value.actionUrl.edit}">
+                    <button class="btn btn-mini btn-primary" type="button">
+                        编辑
+                    </button>
+                </a>
+                <a href="{$value.actionUrl.delete}">
+                    <button class="btn btn-mini btn-danger" type="button">
+                        删除
+                    </button>
+                </a>
+                <a href="{$value.actionUrl.underSheleves}">
+                     <button class="btn btn-mini btn-info" type="button">
+                         下架
+                     </button>
+                </a>
+            </td>
+            </tr>
+       </foreach>
+    </tbody>
+</table>
+<div class="pagination">{$page}</div>

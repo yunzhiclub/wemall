@@ -1,0 +1,49 @@
+
+<form id="UserEditForm" class="form-horizontal" name="UserEditForm" method="post" action="{$User.actionUrl.update}" />
+<fieldset>
+    <php></php>
+    <legend> 修改用户信息</legend>
+    <eq name="Think.const.ACTION_NAME" value="edit">
+    <input type="hidden" name="id" value="{$User['userid']}"/>
+    </eq>
+    <div class="control-group">
+        <label class="control-label" for="userid">用户名</label>
+        <div class="controls">
+            <input type="hidden" name='userid' id="userid" value="{$User.userid}" />
+            <span>{$User.userid}</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label  class="control-label" for="name">姓名</label>
+        <div class="controls">
+            <input type="text" name='name' id="name"  size="25" />
+           
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="email">邮箱</label>
+        <div class="controls">
+            <input type="text" name='email' id="email" size="25"  value="{$User.email}" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="phone">手机</label>
+        <div class="controls">
+            <input type="text" name="phone" id="phone"  value="{$User.phone}" />
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="is_dev">管理员模式</label>
+        <div class="controls">
+            <select name="role" id="role">
+                <option value="0"> 启用</option>
+                <option value="1" <eq name="User.role" value="1">selected="selected"</eq>>禁用</option>  
+            </select>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">保存</button> <button class="btn" type="button" onclick="location = '{$url}'">取消</button>
+        </div>
+</fieldset>
+</form>
+{$js}

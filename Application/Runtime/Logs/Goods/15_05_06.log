@@ -1,0 +1,1382 @@
+[ 2015-05-06T08:26:58+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.091005s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.189011s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.172010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.195011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.203012s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.197011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.205012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T08:27:15+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+SQL: SELECT `id` FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0080s ]
+SQL: INSERT INTO `wemall_shopping_cart` (`product_number`,`product_quantity`,`user_number`) VALUES ('','','26') [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.134008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.119007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.135008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T08:40:56+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0176s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.076802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.082802s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.162203s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.155203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.167204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.173204s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.168204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.176204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T08:40:58+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: openid D:\xampp\htdocs\wemall\ThinkPHP\Application\Goods\Controller\GoodsDetailController.class.php 第 64 行.
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = null AND `product_number` = '' LIMIT 1   [ RunTime:0.0140s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'openid' cannot be null
+
+[ 2015-05-06T08:41:43+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.089005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.082004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.088005s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.179010s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.168009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.182010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.192010s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.184010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.192011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-05-06T08:42:34+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=NaN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '' LIMIT 1   [ RunTime:0.0070s ]
+SQL: INSERT INTO `wemall_shopping_cart` (`openid`,`product_number`,`product_quantity`) VALUES ('oZuoxt8tnEUUf6YPBG-mNPYjoKQA','','NaN') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-06T08:42:37+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.078005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.079005s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.166010s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.157009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.170010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.180011s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.172010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.182011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-05-06T08:42:47+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' LIMIT 1   [ RunTime:0.0090s ]
+SQL: INSERT INTO `wemall_shopping_cart` (`openid`,`product_number`,`product_quantity`) VALUES ('oZuoxt8tnEUUf6YPBG-mNPYjoKQA','6','2') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T08:43:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.078203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.068202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.075203s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.142806s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018601s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.137805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.155406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.158406s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.156406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.155406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017600s ]
+
+[ 2015-05-06T08:43:19+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-06T08:43:31+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0120s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.084802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.084802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.100402s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0216s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.180204s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.160604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.184204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.184204s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.184204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.199804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-06T08:43:36+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' LIMIT 1   [ RunTime:0.0206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T08:43:46+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0186s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.080802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.073802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.080802s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.162406s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.152405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.167406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.177407s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.169406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.180407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-06T08:43:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-06T08:52:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.145805s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.141805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.145805s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.229009s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.217008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.239009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.247010s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.240009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.254010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T08:52:20+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0156s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' LIMIT 1   [ RunTime:0.0110s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='4' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-06T09:11:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.097006s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 53 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 201  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 202  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 20  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.201011s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.174010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.207012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.222013s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.210012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.225013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T09:11:23+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.091005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.092005s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 53 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 201  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 202  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 20  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.188010s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.177010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.193011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.203011s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.195011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.205012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T09:11:31+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=53&count=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '53' LIMIT 1   [ RunTime:0.0080s ]
+SQL: INSERT INTO `wemall_shopping_cart` (`openid`,`product_number`,`product_quantity`) VALUES ('oZuoxt8tnEUUf6YPBG-mNPYjoKQA','53','3') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-06T09:14:33+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.161005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.138404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.143405s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 49 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0  [ RunTime:0.0176s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\wemall\ThinkPHP\Application\Home\Model\AttachmentModel.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\wemall\ThinkPHP\Application\Home\Model\AttachmentModel.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\wemall\ThinkPHP\Application\Home\Model\AttachmentModel.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.222206s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020601s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.189006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.206607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.226207s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.209607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.206607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-05-06T09:14:38+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=49&count=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wemall_shopping_cart` (`openid`,`product_number`,`product_quantity`) VALUES ('oZuoxt8tnEUUf6YPBG-mNPYjoKQA','49','5') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-06T09:46:13+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.074004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.073004s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 49 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0  [ RunTime:0.0120s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\wemall\ThinkPHP\Application\Home\Model\AttachmentModel.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\wemall\ThinkPHP\Application\Home\Model\AttachmentModel.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\wemall\ThinkPHP\Application\Home\Model\AttachmentModel.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.140008s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.124007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.144008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.154009s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.147009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.158009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-06T10:58:26+08:00 ] 192.168.137.143 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.103006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.106006s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.239012s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.212011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.251013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.269014s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.255013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.267014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-06T10:58:28+08:00 ] 192.168.137.143 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' LIMIT 1   [ RunTime:0.0080s ]
+SQL: INSERT INTO `wemall_shopping_cart` (`openid`,`product_number`,`product_quantity`) VALUES ('oZuoxt8tnEUUf6YPBG-mNPYjoKQA','6','2') [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T10:59:36+08:00 ] 192.168.137.143 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.088005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.088005s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 53 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 201  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 202  [ RunTime:0.0280s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 20  [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.217013s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.195011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.222013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.230013s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.224013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.232014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T10:59:41+08:00 ] 192.168.137.143 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=53&count=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '53' LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='1' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '53' [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T19:28:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0140s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.096005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.096005s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 50  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 51  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 52  [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.217012s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.190011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.223013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.231013s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.225013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.232013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T19:28:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0130s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.107006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.097005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.105006s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 50  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 51  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 52  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.211012s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.197011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.213012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.225012s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.215012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.225013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T19:52:11+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/index.html?goodsId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.630025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.588023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.604024s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12  [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 13  [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 14  [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.770033s ]
+NOTIC: [8] Undefined variable: rootPath D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 53 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 67 行.
+NOTIC: [8] Undefined index: transportation_expenses D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\0983c8e75ae36a9e8af1f5dfc72527fe.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.727031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.747032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.795035s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Goods\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.752033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.779034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-05-06T19:58:54+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Goods/GoodsDetail/add.html?goodId=6&count=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `value` FROM `wemall_config` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' LIMIT 1   [ RunTime:0.0090s ]
+SQL: INSERT INTO `wemall_shopping_cart` (`openid`,`product_number`,`product_quantity`) VALUES ('oZuoxt8tnEUUf6YPBG-mNPYjoKQA','6','2') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+

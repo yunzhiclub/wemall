@@ -1,0 +1,55 @@
+<form id="form" action="" method="post" class="form-horizontal form-center">
+<div id="tab1" class="tab-pane intab1">
+    <div class="form-item cf toggle-sort">
+        <label class="item-label">排序号<span class="check-tips">（数值越小越靠前</span></label>
+            <div class="controls">
+                <input type="number" class="text input-medium" name="sort" value="0">
+            </div>
+    </div>                
+    <div class="form-item cf toggle-pid">                  
+        <label class="item-label">一级菜单<span class="check-tips">（如果是一级菜单，选择“无”即可）</span></label>
+        <div class="controls">
+            <select name="pid">
+                  <option value="0" class="toggle-data" toggle-data="" selected>无</option>
+                  <option value="55" class="toggle-data" toggle-data="">精品商场</option>
+                  <option value="58" class="toggle-data" toggle-data="">个人中心</option>
+            </select>                    
+        </div>                 
+    </div>                
+    <div class="form-item cf toggle-title">
+        <label class="item-label"><span class="need_flag">*</span>菜单名<span class="check-tips">（可创建最多 3 个一级菜单，每个一级菜单下可创建最多 5 个二级菜单。编辑中的菜单不会马上被用户看到，请放心调试。）</span></label>                   
+        <div class="controls">                     
+            <input type="text" class="text input-large" name="title" value="分销加盟">                    
+        </div>                 
+    </div>                <div class="form-item cf toggle-type">
+                    <label class="item-label">
+                                        类型                    <span class="check-tips">
+                                            </span></label>
+                    <div class="controls">
+                      <select name="type">
+                            <option value="click" class="toggle-data" toggle-data="keyword@show,url@hide"
+                                                            >点击推事件                              </option><option value="view" class="toggle-data" toggle-data="keyword@hide,url@show"
+                                                            >跳转URL                              </option><option value="scancode_push" class="toggle-data" toggle-data="keyword@show,url@hide"
+                                                            >扫码推事件                              </option><option value="scancode_waitmsg" class="toggle-data" toggle-data="keyword@show,url@hide"
+                                                            >扫码带提示                              </option><option value="pic_sysphoto" class="toggle-data" toggle-data="keyword@show,url@hide"
+                                                            >弹出系统拍照发图                              </option><option value="pic_photo_or_album" class="toggle-data" toggle-data="keyword@show,url@hide"
+                                                            >弹出拍照或者相册发图                              </option><option value="pic_weixin" class="toggle-data" toggle-data="keyword@show,url@hide"
+                                                            >弹出微信相册发图器                              </option><option value="location_select" class="toggle-data" toggle-data="keyword@show,url@hide"
+                                                            >弹出地理位置选择器                              </option><option value="none" class="toggle-data" toggle-data="keyword@hide,url@hide"
+                              selected                              >无事件的一级菜单                              </option>                          </select>                    </div>
+                  </div>                <div class="form-item cf toggle-keyword">
+                    <label class="item-label">
+                                        关联关键词                    <span class="check-tips">
+                                            </span></label>
+                    <div class="controls">
+                      <input type="text" class="text input-large" name="keyword" value="">                    </div>
+                  </div>                <div class="form-item cf toggle-url">
+                    <label class="item-label">
+                                        关联URL                    <span class="check-tips">
+                                            </span></label>
+                    <div class="controls">
+                      <input type="text" class="text input-large" name="url" value="">                    </div>
+                  </div>                            </div>          <div class="form-item cf">
+            <input type="hidden" name="id" value="57">            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+          </div>
+        </form>

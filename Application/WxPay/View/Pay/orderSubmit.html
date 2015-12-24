@@ -1,0 +1,123 @@
+<label for="totalFee">请输入金额</label><input type="text" name="totalFee" id="totalFee" value="1" />
+<label for="orderNo">请输入订单号</label><input type="text" name="orderNo" id="orderNo" value="orderNo"/>
+<label for="orderDescription">请输入订单描述信息</label><input type="text" name="orderDescription" id="orderDescription" value="orderDescription" />
+<button type="button" id="orderSubmit" style="display:block; margin:10em 0 0 10em" onclick="orderSubmit($(this))">提交订单</button>
+
+<button type="button"  onclick="selectAdress()">选择收货地址</button>
+<br />
+<img id="fontPic" class="idcard"/>
+<button  type="button" data-pic="fontPic" onclick="chooseImage($(this))">身份证正面</button>
+<br />
+<img id="backPic" class="idcard"/>
+<button  type="button" data-pic="backPic" onclick="chooseImage($(this))">身份证反面</button>
+<br />
+<script>
+    //提交订单
+    function orderSubmit($this)
+    {
+        $this.text("正在提交");
+        $this.attr("disabled","disabled");
+        var orderNo = $("#orderNo").val();
+        var totalFee = $("#totalFee").val();
+        var orderDescription = $("#orderDescription").val();
+        $.ajax({
+            type:"get",
+            url:"{$postUrl}?orderNo="+orderNo+"&totalFee="+totalFee+"&orderDescription="+orderDescription,
+            dataType:"html",
+            async: true,
+            success:function(result){
+//                alert(result);
+                $("#js").html();
+                $("#js").html(result);
+            },
+            error: function(XMLHttpRequest, textStatus, errorThrown) {
+                alert(XMLHttpRequest.status);
+                alert(XMLHttpRequest.readyState);
+                alert(textStatus);
+            },
+});  
+    };
+//选择收货地址   
+function selectAdress() 
+{
+    WeixinJSBridge.invoke(
+            'editAddress',
+            {
+                "appId" : "{$addressPackage.appId}",
+                "scope" : "{$addressPackage.scope}",
+                "signType" : "{$addressPackage.signType}",
+                "addrSign" : "{$addressPackage.addrSign}",
+                "timeStamp" : "{$addressPackage.timeStamp}",
+                "nonceStr" : "{$addressPackage.nonceStr}",
+            },
+            function(res){
+                alert(res.err_msg);
+            }
+    );
+};
+wx.config({
+    debug: true,
+    appId: '{$signPackage.appId}',
+    timestamp: {$signPackage.timestamp},
+    nonceStr: '{$signPackage.nonceStr}',
+    signature: '{$signPackage.signature}',
+    jsApiList: [
+        'chooseImage',
+        'previewImage',
+        'uploadImage',
+    ]
+  });
+  //微信浏览器事件准备好后自动触发事件
+  //用于检测用户微信版本
+  wx.ready(function () {
+      //检测是否支持各接口
+    wx.checkJsApi({
+        jsApiList:['chooseImage'],
+        success:function(res){
+            if(res.checkResult.chooseImage == false)
+            {
+                alert("您的微信版本过低，请升级微信版本后重试。");
+                $("#orderSubmit").hide();
+            }
+            else
+            {
+
+            }
+        }
+    });
+  });
+  //选择图片并上传，同时将图片的回调地址存入至数组中
+  var idcardPics = new Array();//声明为全局变量
+  idcardPics["fontPic"] = "";
+  idcardPics["backPic"] = "";
+  function chooseImage($this)
+  {
+      wx.chooseImage({
+        success:function($res){
+            if($res.errMsg == "chooseImage:ok")
+            {
+                var picId = $this.attr("data-pic");
+                var localIds = $res.localIds;
+                wx.uploadImage({
+                    localId:localIds[0],
+                    isShowProgressTips:1,
+                    success:function (res)
+                    {
+                        if(res.errMsg == 'uploadImage:ok')
+                        {
+                            var serverId = res.serverId; 
+                            idcardPics[picId] = serverId;
+                            $("#" + picId).attr("src",localIds[0]);
+                        }
+                        else
+                        {
+                            alert('图片上传失败');
+                        }
+                    }
+                });
+            }       
+        }
+    });
+  };
+</script>
+<div id="js"></div>

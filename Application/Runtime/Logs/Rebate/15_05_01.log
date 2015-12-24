@@ -1,0 +1,110 @@
+[ 2015-05-01T13:34:14+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Rebate/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 0 ) ORDER BY sort desc  [ RunTime:0.0176s ]
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Undefined variable: menuList D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `wemall_admin_menu` [ RunTime:0.0236s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Rebate' AND `controller` = 'Index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+NOTIC: [8] Undefined index: class D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bc62bb2a7402468c1e0e6ba68e4517bd.php 第 2 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`pid` FROM `wemall_admin_menu` WHERE `module` = 'Rebate' AND `controller` = 'Index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Model\AdminMenuModel.class.php 第 44 行.
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 19 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 24 ) ORDER BY sort desc  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 20 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 22 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 25 ) ORDER BY sort desc  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 26 ) ORDER BY sort desc  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 27 ) ORDER BY sort desc  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 28 ) ORDER BY sort desc  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_admin_menu` WHERE ( pid = 29 ) ORDER BY sort desc  [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+NOTIC: [8] Undefined index: _child D:\xampp\htdocs\wemall\ThinkPHP\Application\Admin\Controller\MenuListController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0120s ]
+NOTIC: [8] Use of undefined constant top_money - assumed 'top_money' D:\xampp\htdocs\wemall\ThinkPHP\Application\Rebate\Model\RebateModel.class.php 第 78 行.
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` >= 10000 LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\Rebate\Model\RebateModel.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\Rebate\Model\RebateModel.class.php 第 82 行.
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\Rebate\Model\RebateModel.class.php 第 12 行.
+SQL: SELECT * FROM `wemall_rebate` LIMIT 0,10   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: TPl D:\xampp\htdocs\wemall\ThinkPHP\Application\Rebate\Controller\IndexController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.221612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.200012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.214612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.250213s ]
+NOTIC: [8] Undefined variable: YZFooterJs D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Rebate\bbbf7050b05668fa13be77e37d2e0d3d.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.231212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.246213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

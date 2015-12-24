@@ -1,0 +1,36 @@
+<h4>    <a href="{$sendMenuUrl}">生成菜单</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{$deleteMenuUrl}">删除菜单</a></h4>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th>菜单名</th><th>菜单类型</th><th>回复类型</th><th>回复标题</th><th>回复图片</th><th>回复内容</th><th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+        <foreach name="data" item="value" key="key">
+            <tr>
+                <td>{$value.title}</td>
+                <td>{$value.type}</td>
+                <td>{$value.reply_type}</td>
+                <td>{$value.reply_title}</td>
+                <td>
+                    
+                    <a href="{$value.reply_image.url}"><img class="smallPic" src="{$value.reply_image.url}" /></a></td>
+                <td>{$value.reply_content}</td>
+                <td>
+                    <eq name="value.is_dev" value="0"><a href="{$value.actionUrl.edit}">
+                        <button class="btn btn-mini btn-primary" type="button">
+                            修改
+                        </button>
+                    </a></eq>
+                </td>
+            </tr>
+        </foreach>
+        </tbody>
+    </table>
+</div>
+<style>
+    .smallPic{
+        width:40px;
+    }
+</style>

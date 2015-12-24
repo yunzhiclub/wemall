@@ -1,0 +1,38 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+            <tr>
+                    <th>订单编号</th>
+                    <th>用户昵称</th>
+                    <th>支付时间</th>
+                    <th>商品总数</th>
+                    <th>支付账号</th>
+                    <th>支付流水号</th>
+                    <th>操作</th>
+            </tr>
+    </thead>
+    <tbody>
+            <foreach name="picking" item="value" key="key">
+            <tr>
+                <td>{$value.id}</td>
+                <td>{$value.customer.nickname}</td>
+                <td>{$value.pay_time|date="y/m/d H:i",###}</td>
+                <td>{$value.goodsQuantity}</td>
+                <td>{$value._payInf.payment_number}</td>
+                <td>{$value._payInf.payment_serialnumber}</td>
+                <td>
+                    <a href="{$value.url.detail}">
+                        <button class="btn btn-mini" type="button">
+                            查看详情
+                        </button>
+                    </a>
+                    <a href="{$value.url.pick}">
+                        <button class="btn btn-mini btn-primary" type="button">
+                             修改状态
+                        </button>
+                    </a>
+                 </td>
+            </tr>
+            </foreach>
+    </tbody>
+</table>
+<div class="pagination">{$page}</div>

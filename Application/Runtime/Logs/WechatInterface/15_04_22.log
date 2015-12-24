@@ -1,0 +1,820 @@
+[ 2015-04-22T10:30:09+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T10:31:31+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T10:57:33+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-22T10:57:39+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oOwB6s0OGQJ_-efZ_FbSqUogOdJU',`subscribe`=NULL,`nickname`=NULL,`sex`=NULL,`city`=NULL,`province`=NULL,`country`=NULL,`headimgurl`=NULL,`subscribe_time`=NULL,`remark`=NULL WHERE `id` = 1 [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T10:57:54+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oOwB6s0OGQJ_-efZ_FbSqUogOdJU',`subscribe`=NULL,`nickname`=NULL,`sex`=NULL,`city`=NULL,`province`=NULL,`country`=NULL,`headimgurl`=NULL,`subscribe_time`=NULL,`remark`=NULL WHERE `id` = 1 [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-22T10:58:39+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oOwB6s0OGQJ_-efZ_FbSqUogOdJU',`subscribe`=NULL,`nickname`=NULL,`sex`=NULL,`city`=NULL,`province`=NULL,`country`=NULL,`headimgurl`=NULL,`subscribe_time`=NULL,`remark`=NULL WHERE `id` = 1 [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T12:57:21+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:57:25+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] PDO::__construct():  D:\xampp\htdocs\wemall\ThinkPHP\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ����������������ʱͨ�����ֵ���ʱ��������ζ�ű��ط�����û�д�Ȩ�����������յ���Ӧ�� 
+
+[ 2015-04-22T12:57:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0070s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:57:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:58:23+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:58:25+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0070s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:58:27+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:58:46+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-22T12:58:49+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0070s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:59:03+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:59:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:59:06+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:59:43+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:59:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:59:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T12:59:51+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T13:00:05+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-22T13:00:08+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T13:00:32+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T13:00:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T13:01:08+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T13:01:10+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0070s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T13:01:51+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0070s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T13:02:37+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Undefined property: stdClass::$nickname D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Undefined property: stdClass::$sex D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Undefined property: stdClass::$language D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Undefined property: stdClass::$city D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Undefined property: stdClass::$province D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Undefined property: stdClass::$country D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe_time D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Undefined property: stdClass::$remark D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0070s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T13:03:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 85 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 88 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 89 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 90 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 91 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 92 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 93 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'subscribe' cannot be null
+
+[ 2015-04-22T13:21:23+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T14:03:42+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T14:03:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-04-22T14:04:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-22T14:05:26+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T14:06:53+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-22T14:07:11+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T14:07:14+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-22T14:07:30+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-22T14:10:54+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T14:11:01+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-22T14:11:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T14:13:58+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-22T14:15:08+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-22T14:15:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0070s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`subscribe`='0' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-22T14:15:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-04-22T14:18:14+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-22T14:18:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `wemall_customer` SET `subscribe`='1',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`nickname`='潘杰',`sex`='1',`city`='河北',`province`='天津',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLBCjgjWGsBRDvsbYzEnsgdZyMUScoWaewZiaTnuNMjWpUSKrgSQ0kV1MZ86yqIwK7prFicL8uRaKaFg/0',`subscribe_time`='1429679082',`remark`='' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-22T14:21:03+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_customer` SET `subscribe`='1',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`nickname`='潘杰',`sex`='1',`city`='河北',`province`='天津',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLBCjgjWGsBRDvsbYzEnsgdZyMUScoWaewZiaTnuNMjWpUSKrgSQ0kV1MZ86yqIwK7prFicL8uRaKaFg/0',`subscribe_time`='1429679082',`remark`='' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

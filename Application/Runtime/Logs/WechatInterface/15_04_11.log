@@ -1,0 +1,159 @@
+[ 2015-04-11T08:59:24+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2015-04-11T09:02:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2015-04-11T09:23:32+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2015-04-11T09:29:09+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0080s ]
+SQL: INSERT INTO `wemall_customer` (`openid`,`subscribe`,`nickname`,`sex`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`) VALUES ('oOwB6s0OGQJ_-efZ_FbSqUogOdJU','1','刘芳','2','北辰','天津','中国','http://wx.qlogo.cn/mmopen/kBqY0y9SQfE7EJZ02yQR1t6gicibCHACsjC2JQbA4HBXDuYWttNWEWWj6UmZIqgC3PMuxtr9HAdrCmUjUsVxiaoiaia2CIa3BN1ye/0','1428412353') [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-11T12:18:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s7gxdbD6b-2nLYvYuBSEhWM' LIMIT 1   [ RunTime:0.0120s ]
+SQL: INSERT INTO `wemall_customer` (`openid`,`subscribe`,`nickname`,`sex`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`) VALUES ('oOwB6s7gxdbD6b-2nLYvYuBSEhWM','1','刘岩','2','红桥','天津','中国','http://wx.qlogo.cn/mmopen/PiajxSqBRaEJ2rfsg4BZWLM27HbQ1xgkia2IXhsATySf9uMnAFlJ2stHAIsbFJOxzxDAkCkia7uXylpaUO4D9RQeQ/0','1416896862','') [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-11T12:20:11+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0EbgdzcBo2zs17_BDbkuiQ' LIMIT 1   [ RunTime:0.0110s ]
+SQL: INSERT INTO `wemall_customer` (`openid`,`subscribe`,`nickname`,`sex`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`) VALUES ('oOwB6s0EbgdzcBo2zs17_BDbkuiQ','1','邢小年','1','河西','天津','中国','http://wx.qlogo.cn/mmopen/kBqY0y9SQfE7EJZ02yQR1rl9iawSpdzS8Sz2W71icYBB31wQ5bJ54U4eMbLUxbslC6ZzjX3TiaXEib5vRcEmQibBghN7XDoMY0Tib3/0','1428377286','') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-11T12:22:12+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-11T12:23:01+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-11T12:24:28+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0270s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oOwB6s0OGQJ_-efZ_FbSqUogOdJU',`subscribe`='1',`nickname`='刘芳',`sex`='2',`city`='北辰',`province`='天津',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/kBqY0y9SQfE7EJZ02yQR1t6gicibCHACsjC2JQbA4HBXDuYWttNWEWWj6UmZIqgC3PMuxtr9HAdrCmUjUsVxiaoiaia2CIa3BN1ye/0',`subscribe_time`='1428412353',`remark`='' WHERE `id` = 1 [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-11T12:35:35+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_cache` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_wechat_cache` LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 32 行.
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oOwB6s0OGQJ_-efZ_FbSqUogOdJU' LIMIT 1   [ RunTime:0.0210s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oOwB6s0OGQJ_-efZ_FbSqUogOdJU',`subscribe`='1',`nickname`='刘芳',`sex`='2',`city`='北辰',`province`='天津',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/kBqY0y9SQfE7EJZ02yQR1t6gicibCHACsjC2JQbA4HBXDuYWttNWEWWj6UmZIqgC3PMuxtr9HAdrCmUjUsVxiaoiaia2CIa3BN1ye/0',`subscribe_time`='1428412353',`remark`='' WHERE `id` = 1 [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

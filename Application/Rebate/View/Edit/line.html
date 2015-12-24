@@ -1,0 +1,35 @@
+<!--
+梦云智工作室
+ 
+-->
+<form method="post" action="{$urlUpdate}" >
+    <fieldset>
+        <legend> <a href="{$urlIndex}"><h4>返回</h4></a></legend>
+    <input name ="id" type="hidden" value="{$rebate['id']}" />
+    <ul>
+        <li class="li"><lable for="top_money">上线金额:</lable><input type="text" name="top_money" value="<php>echo format_money($rebate['top_money']);</php>"/>元</li>
+        <li class="li"><lable for="line_ratio">线销系数:</lable><input type="text" name="line_ratio" value="{$rebate['line_ratio']}" /></li>
+        <li class="li"> <input type="submit"  class="btn btn-primary" value="保存"/>
+        <div class="clr"></div>
+    </ul>
+    </fieldset>
+</form>
+<style>
+    .clr{
+        clear: both;
+    }
+    ul li {
+        list-style-type: none;
+    }
+   
+    
+    .title{
+        float: left;height: 50px;
+    }
+    .li label{
+        width: 100px;text-align: justify;
+    }
+    .li a{
+        width: 50px;margin-right: 120px;
+    }
+</style>

@@ -1,0 +1,22 @@
+
+        <a href="javascript:void(0);" id="addressId" data-value="{$address.id}" class="address-btn" onclick="showAddress($(this))">
+          <table class="list-group-item-table">
+              <tr>
+                  <td class="col-right0"><span class="addressTitle">{$address.name}&nbsp;&nbsp;{$address.phone}</span></td>
+                  <td rowspan="2" class="col-right1">             
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  </td>
+                      
+              </tr>
+              <tr>
+                  <td class="col-right0">
+                      <span class="addressDetail">
+                      {$address.provice}{$address.city}{$address.address}
+                      </span>
+                      <eq name="address.address" value="">
+                        <p style="color:red;">添加收货地址</p>
+                      </eq>
+                  </td>
+              </tr>
+          </table>
+        </a>

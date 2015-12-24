@@ -1,0 +1,54 @@
+<table  class="table table-bordered table-striped table-hover">  
+        
+        <tr>
+            <th>支付编号</th>
+            <th>订单编号</th>
+            <th>用户昵称</th>
+            <th>订单总额</th>
+            <th>商品总数</th>         
+            <th>下单时间</th>
+            <th>操作</th>
+	</tr>
+        
+        <foreach name="noPay" item="value1" key="key">
+            <tr align="center">
+                <td>{$value1.id}</td>
+                <td></td>
+                <td>{$value1._customer.nickname}</td>
+                <td style='text-align: right'><php> echo format_money($value1['payable']);</php></td>
+                <td>{$value1.total_count}</td>             
+                <td>{$value1.creat_time|date="Y/m/d H:i",###}</td>
+                <td>
+                    <a  href="{$value1['_actionUrl']['change']}">
+                        <button class="btn btn-mini btn-primary" <php>if ($value1['prepay_id'] != null) echo "style='display:none'";</php> type="button">
+                            修改金额
+                        </button>
+                    </a>
+                    <a href="{$value1['_actionUrl']['pay']}">
+                        <button class="btn btn-mini btn-primary" type="button">
+                            支付
+                        </button>
+                    </a>
+                    <a href="{$value1['_actionUrl']['cancel']}">
+                         <button class="btn btn-mini btn-danger" type="button">
+                             取消
+                         </button>
+                    </a>
+                </td>
+            </tr>
+            <foreach name="value1._detail" item="value" key="key">
+            <tr align="center">
+                <td></td>
+                <td>{$value1.id}-{$value.id}</td>
+                <td>{$value.customer.nickname}</td>
+                <td style='text-align: right'><php> echo format_money($value['total_prices']);</php></td>
+                <td>{$value.total_count}</td>             
+                <td>{$value.buy_time|date="Y/m/d H:i",###}</td>
+                <td>-</td>
+            </tr>
+            </foreach>
+        </foreach>
+  </table>
+<div class="pagination">{$page}</div>
+    
+ 

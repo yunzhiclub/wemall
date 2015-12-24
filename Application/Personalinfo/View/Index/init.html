@@ -1,0 +1,36 @@
+<form id="PersonalinfoForm" class="form-horizontal" name="PersonalinfoForm" method="post" action="{$User.actionUrl.update}" />
+<fieldset>
+    <php></php>
+    <legend> 查看用户信息</legend>
+    <eq name="Think.const.ACTION_NAME" value="edit">
+    <input type="hidden" name="id" value="{$User['userid']}"/>
+    </eq>
+    <div class="control-group">
+        <label class="control-label" for="userid">用户名</label>
+        <div class="controls">
+            <span>{$User.userid}</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="name">姓名</label>
+        <div class="controls">
+            <span>{$User.name}</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="email">邮箱</label>
+        <div class="controls">
+             <span>{$User.email}</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="action">手机</label>
+        <div class="controls">
+            <span>{$User.phone}</span>
+        </div>
+    </div>
+
+        <div class="form-actions">
+           </div>
+</fieldset>
+</form>

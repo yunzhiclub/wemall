@@ -1,0 +1,17 @@
+[ 2015-04-08T10:33:32+08:00 ] ::1 /wemall/WeiPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000432s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000938s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004170s ]
+

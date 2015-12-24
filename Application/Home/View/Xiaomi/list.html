@@ -1,0 +1,40 @@
+<foreach name="list" item="goods">
+    <div class="row line" data-href="{$goodsDetailUrl}?goodsId={$goods.id}">
+        <div class="col-xs-4">
+            <a class="goods-list-content" href="{$goodsDetailUrl}?goodsId={$goods.id}">
+                <img class="img-responsive" href="{$goodsDetailUrl}?goodsId={$goods.id}" src="{$goods.image_path}" /></a>
+        </div>
+        <div class="col-xs-8">
+            <a class="goods-list-content" href="{$goodsDetailUrl}?goodsId={$goods.id}"><span class="name">{$goods.name}</span></a>
+            <div class="row row1">
+                <div class="col-xs-6 left1">
+                    <span class="money"> ￥<php>echo format_money($goods['purchasing_price']);</php></span>
+                </div>
+                <div class="col-xs-6 right1">
+                    <img  alt="140x140" width="20px" height="20px" src="{$goods.source.icon_url}" alt="" class="img-circle">
+                    {$goods.logistics_mode.name}
+                </div>  
+            </div>
+            
+            <div class="row row2">
+                <div class="col-xs-6 left2">
+            直销返点：{$goods['direct_selling_commission']}%
+                </div>
+                <div class="col-xs-6 right2">
+                    下线返点：{$goods['line_selling_commission']}%
+                </div>
+            </div>
+            
+            <gt name="goods.discount_amount" value="0">
+            <div class="row left2">
+                <div class="col-xs-11">
+                    <span class="money">优惠政策：{$goods.discount_way}</span>
+                </div>
+            </div>
+            </gt>
+        </div>
+    </div>
+</foreach>
+    
+
+

@@ -1,0 +1,1181 @@
+[ 2015-05-17T15:37:07+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.140000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.130000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.130000s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.320000s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.310000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.320000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T15:39:47+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016001s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.130007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.125007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.131008s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.334019s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.327019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.338019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-17T15:39:55+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009001s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.162010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.156009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.165009s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0570s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.369022s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.357021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.378021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-17T15:40:44+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.170000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.160000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.170000s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.360001s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.340000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.350001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T15:41:03+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.120000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.120000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.130000s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.360000s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.350000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.360000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-05-17T15:42:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.180001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.180001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.190001s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.370001s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.360001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.380001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T15:42:59+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=%E6%B5%8B%E8%AF%95
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%测试%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%测试%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 487  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.230001s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.210000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.230001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T15:43:07+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.110000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.110000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.120000s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0800s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.330001s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.320001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.330001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T15:57:31+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.030000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.240001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.240001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.250001s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0600s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Logistics\Model\LogisticsModel.class.php 第 28 行.
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = null LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-75.458114s ]
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [2] Illegal string offset 'icon_url' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 13 行.
+NOTIC: [2] Illegal string offset 'name' D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 14 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-75.458114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-75.468114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T16:04:43+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.150000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.150000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.150000s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: keyRes D:\xampp\htdocs\wemall\ThinkPHP\Application\Search\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\wemall\ThinkPHP\Application\Source\Model\SourceModel.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-52.562091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-52.552091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-52.562091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T16:05:27+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.170001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.160001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.160001s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\wemall\ThinkPHP\Application\Source\Model\SourceModel.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-31.824047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-31.814047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-31.824047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-17T16:05:59+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.160001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.150001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.160001s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 478  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 461  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 458  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 432  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 449  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 446  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-26.947359s ]
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-26.931359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-26.943360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-17T16:07:06+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Search/Index/index.html?condition=%E6%B5%8B%E8%AF%95
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: title D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\84bbde5b701f493f6a0f08ae524c6d11.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015001s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_goods` WHERE `name` LIKE '%测试%' AND `state` = 1 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `name` LIKE '%测试%' AND `state` = 1 ORDER BY reorder desc LIMIT 0,9   [ RunTime:0.0960s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 505  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 487  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.387022s ]
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+NOTIC: [8] Undefined variable: customerType D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Search\a8ad52d2d878342407662eb11c92f4f2.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.377021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.387022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

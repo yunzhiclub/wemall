@@ -1,0 +1,45 @@
+{/*
+* 调用微信官方接口
+* 微信返回值res.err_msg
+*get_brand_wcpay_request:ok  支付成功
+*get_brand_wcpay_request:cancel 支付过程中用户取消
+*get_brand_wcpay_request:fail 支付失败
+*成功与失败后进行相应的跳转
+*/}
+<script type="text/javascript">
+    //调用微信JS api 支付
+    function jsApiCall()
+    {
+        WeixinJSBridge.invoke(
+            'getBrandWCPayRequest',
+            {$jsApiParameters},
+            function(res){
+               WeixinJSBridge.log(res.err_msg);
+               if(res.err_msg == 'get_brand_wcpay_request:ok')
+               {
+                   window.location.href="{$actionUrl.success}";
+               }
+               else
+               {
+                   window.location.href="{$actionUrl.error}";
+               }
+            }
+        );
+    }
+
+    function callpay()
+    {
+        if (typeof WeixinJSBridge == "undefined"){
+            if( document.addEventListener ){
+                document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+            }else if (document.attachEvent){
+                document.attachEvent('WeixinJSBridgeReady', jsApiCall); 
+                document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+            }
+        }else{
+            jsApiCall();
+        }
+    }
+    //启动支付
+    callpay();
+</script>

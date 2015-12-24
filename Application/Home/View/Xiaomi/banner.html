@@ -1,0 +1,29 @@
+<div class="col-xs-12 slider card card-nomb yz-no-padding" style="visibility: visible;">
+<div id="focus" class="focus">
+    <div class="hd">
+      <ul>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+      <foreach name="slideInfo" item="slide">
+          <li><a href=<eq name="slide.is_good" value="0">"{$goodsDetailUrl}?goodsId={$slide.product_id}"<else />"{$slide.url}"</eq> title=""><img name="ad_img" src="{$slide.path}" alt="" /></a></li>
+          </foreach>
+      </ul>
+    </div>
+</div>
+    <script type="text/javascript">
+	TouchSlide({ 
+		slideCell:"#focus",
+		titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		mainCell:".bd ul",
+		delayTime:600,
+		interTime:4000,
+		effect:"leftLoop", 
+		autoPlay:true,//自动播放
+		autoPage:true, //自动分页
+		switchLoad:"_src" //切换加载，真实图片路径为"_src" 
+	});
+	</script>
+    <!-- banner轮播End -->
+</div>

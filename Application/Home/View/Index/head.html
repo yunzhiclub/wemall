@@ -1,0 +1,84 @@
+<style>
+/* logo样式*/
+ .logo-img{width: 250px;height: 40px; background: url("{$rootPath}/theme/default/image/logo.png") no-repeat; border: 0; margin: 0px auto; padding: 0;}
+ 
+   /*搜索框样式*/
+ .search-button{background-color: #FF4400;color: #fff;padding: 1px 20px;width: 50px}
+ #search-input{border: solid thin  #FF4400;}
+/* .search-icon{color: #fff;font-size: 21px}*/
+
+/*banner*/
+    .swiper-container {
+        width: 100%;
+	max-width:640px;
+        height: 200px;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+.list-group-item{height: 140px;}
+.list-col1{width: 50%;}
+.list-col2{width: 50%}
+.list-col0{width: 150px;text-align: left;}
+.list-table{width: 60%;float: left;color: #000;height: 100%}
+.goods-list{list-style: none;margin-bottom: -1px;  background-color: #fff;  border: 1px solid #ddd;padding: 4px}
+.goods-list-content{display: block;}
+.page-btn{  width: 40%;  margin: 5px auto;  display: block;height: 34px;}
+.btn-box{width: 100%;text-align: center;height: 90px;}
+.thumbnail img{  display: inline-block;  width: 100%;  height: 100%;}
+.goods-list-content span.thumbnail{width: 5em;height: 5em;float: left;margin-right: 1%;}
+.goods-name{font-size: 1.20em; color: #F00}
+.goods-deliver{}
+.arrive-days{}
+.international_price{}
+.purchasing_price{}
+.policy{}
+.customs{}
+.direct_ratio{}
+.line_ratio{}
+.list-table tr td{padding: 0.1875em;font-size: 0.625em;}
+</style>
+        <link rel="stylesheet" href="{$rootPath}/theme/bootstrap/css/bootstrap.css" />
+<!--        <link rel="stylesheet" href="{$rootPath}/theme/bootstrap/iconfont/iconfont.css" />-->
+        <link rel="stylesheet" href="{$rootPath}/theme/slider/swiper.min.css" />
+        <script src="{$rootPath}/js/slider/slider.js"></script>
+        
+<script>
+
+    function load($this){
+       
+        var page = $this.attr("data-page");
+        var url = '{$postUrl}';
+        $this.html("加载中...");
+        $.post(url+"?pageNum="+ page,{},function(data,status){ 
+                var obj = eval('(' + data + ')');
+                if(obj.state){
+                    $(".content ul").append(obj.list);
+                    $(".btn-box").html(obj.page);
+                }else{
+                    $(".content ul").append(obj.list);
+                    $(".btn-box").html("没有了");
+                }
+                
+        });
+    }
+
+</script>

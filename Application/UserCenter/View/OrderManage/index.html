@@ -1,0 +1,112 @@
+<foreach name="data" item="value">
+<div class="row clearfix">
+    <div class="col-xs-12 column">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+<!--                    <php>dump($value);</php>-->
+                    <div class="col-xs-12">
+                        NO:{$value['id']}<!--{$value['source']}-{$value['buy_time']|date="Y-m-d",###}-->
+                    <php>
+                       
+                if($value['is_finish'] == 1)
+                {
+                     echo '<span class="label label-success">已完成</span>';
+                }
+                elseif($value['is_cancel'] == 1)
+                {
+                    echo '<span class="label label-default">已取消</span>';
+                }
+                elseif($value['is_pay'] == 1)
+                {
+                    echo '<span class="label label-primary">';
+                    if($value['is_pick'] == 0)
+                    {
+                        echo "正在配货";
+                    }
+                    elseif($value['is_getlog'] == 0)
+                    {
+                        echo "获取物流信息中";
+                    }
+                    elseif($value['is_origin'] == 0)
+                    {
+                        echo "原产国配送中";
+                    }
+                    else
+                    {
+                        echo "国际配送中";
+                    }
+                    echo '</span>';
+                }
+                else
+                {
+                    echo '<span class="label label-info">未支付</span>';
+                }
+                
+                </php>
+                    </div>
+                    <div class="clr"></div>
+                    </h3>
+            </div>
+            <div class="panel-body">
+                <foreach name="value._goods" item="goods">
+                    <div class="row">
+                        <div class="col-xs-2  no-padding">
+                            <img class="img-responsive" src="{$goods._pic.url}"/>
+                        </div>
+                        <div class="col-xs-8">
+                            <p>{$goods.goods_name}</p>
+                        </div>
+                        <div class="col-xs-2">
+                            <p>{$goods.price|format_money}</p>
+                            <p>*{$goods.quantity}</p>
+                        </div>
+                        
+                    </div>
+                </foreach>
+                <div class="col-xs-12">
+                            <p>{$value._payid.customer_address}</p>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <div class="col-xs-12">
+                    <span class="danger" data-toggle="popover" data-placement="top" title="Tips" data-content="相同支付编号的订单将合并支付">支付编号：{$value._payid.id}</span>
+                    
+                </div>
+                <div class="col-xs-3 col-xs-offset-6 text-center">
+                    <php>
+                        if($value['is_cancel'] == 0 && $value['is_pay'] == 0)
+                        {
+                            $flag = 0;
+                        }
+                        else
+                        {
+                            $flag = 1;
+                        }
+                        
+
+                    </php>
+                    <eq name='flag' value='0'>
+                        <button id="cancel-{$value.payid}" data-payid="{$value.payid}" class="btn-xs btn btn-danger cancel-payid-{$value.payid}" onclick="cancelOrder($(this))">取消</button>
+                    </eq>
+                </div>
+                <div class="col-xs-3 text-center">
+                    <eq name='flag' value='0'>
+                        <a href="{$value._payUrl}" class="btn-xs btn btn-primary finish-payid-{$value.payid}">支付</a>
+                    </eq>
+                    <eq name='value.is_cancel' value='0'>
+                        <eq name='value.is_inter' value='0'>
+                            <eq name='value.is_origin' value='1'>
+                                <button id="finish-{$value.id}" data-id='{$value.id}' class="btn-xs btn btn-primary" onclick="finishOrder($(this))">确认收货</button>
+                            </eq>
+                        </eq>
+                    </eq>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</foreach>
+{$css}
+{$js}

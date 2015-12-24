@@ -1,0 +1,48 @@
+
+<div class="input-group">
+    <input name="condition" id="search-input" type="text" class="form-control " placeholder="搜索商品/订单"/>
+            <span class="input-group-btn">
+                <button onclick="search()" class="btn  search-button" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+          </span>
+</div>
+<script>
+    function search(){
+        var value = $("#search-input").val();
+        if(value === ''){
+            return;
+        }else{
+            $(".btn-box").html('');
+            $(".list-group").html('');
+            $(".list-group").next().remove();
+            $(".content").append('<div class="loading"></div>');
+            $.get("{$searchUrl}?condition=" + value,function(data){
+                var obj = eval("(" + data + ")"); 
+                $(".loading").remove();
+                if(obj.state === 0){                
+                     $(".content").append(obj.content);
+                }else{
+                    $(".list-group").html(obj.content);
+                    $(".btn-box").html(obj.page);
+                }
+            });
+        }
+       
+    }
+    function queryLoad($this){
+        var value = $("#search-input").val();
+        var pageNum = $this.attr("data-page");
+        $(".btn-box").html('');
+        $(".content").append('<div class="loading"></div>');
+        $.get("{$loadUrl}?pageNum=" + pageNum +"&queryAdd=" + value,function(data){            
+            var obj = eval("(" + data + ")"); 
+            $(".loading").remove();
+            if(obj.state === 0){                
+                     $(".list-group").append(obj.content);
+                     $(".btn-box").html("没有了...");
+                }else{
+                    $(".list-group").append(obj.content);
+                    $(".btn-box").html(obj.page);
+                }
+        });
+    }
+</script>

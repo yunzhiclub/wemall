@@ -1,0 +1,31 @@
+<table class="table table-bordered table-striped">
+    <thead>
+            <tr>
+                    <th>序号</th>
+                    <th>持有用户</th>
+                    <th>发放时间</th>
+                    <th>过期时间</th>
+                    <th>使用时间</th>
+                    <th>面额</th>
+                    <th>状态</th>
+                    <th>操作</th>
+            </tr>
+    </thead>
+    <tbody>
+             <php>$i=1;</php>
+            <foreach name="sent" item="value" key="key">
+            <tr>
+                <td>{$i++}</td>
+                <td>{$value._openid.nickname}</td>
+                <td>{$value.start_time|date="y/m/d H:s",###}</td>
+                <td>{$value.end_time|date="y/m/d H:s",###}</td>
+                <td><eq name="value.use_time" value="0">-<else/>{$value.use_time|date="y/m/d H:s",###}</eq></td>
+                <td>{$value.cover|format_money}</td>
+                <td><eq name="value.is_freezed" value="0">正常<else/>冻结</eq></td>
+                <td><a href="{$value.url.freezeUrl}"><eq name="value.is_freezed" value="0">冻结<else/>解冻</eq></a></td>
+            </tr>
+            </foreach>
+    </tbody>
+</table>
+<div class="pagination" align="center">{$page}</div>
+

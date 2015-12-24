@@ -1,0 +1,2156 @@
+[ 2015-05-10T11:25:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.357020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.285016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.318018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.391022s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.321018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.338019s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.424024s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.341019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.378022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.442025s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.380022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.391022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T11:28:20+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.266016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.258015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.266016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.272016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.268016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.272016s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.290017s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.275016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.296017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.310018s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.298017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.312018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-10T11:29:43+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.448025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.440025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.452026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.459026s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.454026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.458026s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.479027s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.460026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.483028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.497028s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.486028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.498028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-10T11:29:50+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.288016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.283016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.289017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.294017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.291017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.294017s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.313018s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.296017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.316018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.325019s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.318018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.326019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:29:54+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.313017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.304017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.312018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.323018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.317018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.321018s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.350020s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.327018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.357020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.377021s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.361020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.379022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:33:57+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.299018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.294016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.299017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.307018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.302017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.305017s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.324019s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.309017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.327018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.340020s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.330018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.339019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T11:34:31+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.311017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.306017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.311018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.320018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.313018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.320018s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.336019s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.322018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.338019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.348019s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.340019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.348020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T11:34:38+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.285017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.280016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.284016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.290017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.286016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.289016s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.304018s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.291016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.306017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.317019s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.308017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.317018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:35:38+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.293017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.289017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.293017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.298017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.295017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.298017s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.316018s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.300018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.321019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.333019s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.325019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.334020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T11:37:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.308018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.303018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.308018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.317018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.311018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.315018s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.334019s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.318018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.335020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.349020s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.338020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.349020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-10T11:40:34+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.266016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.261015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.270016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.277016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.273016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.277016s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.295017s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.279016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.300018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.310018s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.302018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.311018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:40:43+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.304017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.297017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.302018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.309018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.304018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.307018s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.328019s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.309018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.330019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.342020s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.332019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.341020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:45:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.503086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.498086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.501086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.509086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.504086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.506087s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.528088s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.510087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.529088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.541088s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.532088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.540088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T11:45:44+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/delete.html?id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0110s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '27' [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:45:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.240014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.235014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.244014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.251014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.246014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.250015s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.268015s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.252015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.270016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.281016s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.272016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.280016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:45:57+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/delete.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0120s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '13' [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-10T11:46:00+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/delete.html?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0120s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '12' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T11:46:03+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.198011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.193011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.198011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.206012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.201011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.205012s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.221012s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.207012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.224013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.235013s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.225013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.238014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T11:46:09+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=5&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0110s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='5' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:46:10+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=4&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0130s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='4' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:46:10+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=3&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='3' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:46:11+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0130s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T11:46:12+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0160s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '7' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-10T11:46:12+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=1&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0110s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='1' WHERE `product_number` = '7' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-05-10T11:46:13+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0110s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:46:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.240014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.235014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.239014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.246014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.241014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.244014s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.261015s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.247014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.263015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.277016s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.264015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.277016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-10T11:48:39+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T11:48:39+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T11:48:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T11:48:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T11:48:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=2&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0000s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='2' WHERE `product_number` = '6' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-05-10T11:48:42+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/changeCount.html?count=1&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0000s ]
+SQL: UPDATE `wemall_shopping_cart` SET `product_quantity`='1' WHERE `product_number` = '7' AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-10T14:30:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010001s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.306017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.301017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.309018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.315018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.311018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.313018s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.329019s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.315018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.330019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.341019s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.332019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.341020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T22:05:21+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 150507003 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.498028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.484028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.498029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.527030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.500029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.527030s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.547031s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.528030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.550031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.559032s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.552032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.560032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-10T22:06:18+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 150507003 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.985057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.979056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.987057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.992057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.989057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.991057s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.007058s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.993057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.012058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.020059s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.013058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.025059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-10T22:15:23+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/ShoppingCart/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ShoppingCart\Model\ShoppingCartModel::delete() should be compatible with Think\Model::delete($options = Array) D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Model\ShoppingCartModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 150507003 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 475 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.268015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.258014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.269015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.276015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.272015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.277016s ]
+NOTIC: [8] Undefined variable: url D:\xampp\htdocs\wemall\ThinkPHP\Application\ShoppingCart\Controller\IndexController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.300017s ]
+NOTIC: [8] Undefined index:  D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\1bb6ee83a02a638bc6878bcd8f3fd05b.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.280016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.304017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.312017s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 9 行.
+NOTIC: [8] Undefined variable: header D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\ShoppingCart\f64d738dec9062ca568444d9a07e17dd.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.306017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.312018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

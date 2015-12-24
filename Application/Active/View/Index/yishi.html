@@ -1,0 +1,28 @@
+<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>金额</th>
+                                                                <th>有效时间</th>
+                                                                <th>开始时间</th>
+                                                                <th>手机号</th>
+                                                                <th>结束时间</th>
+                                                                <th>微信号</th>
+							</tr>
+						</thead>
+						<tbody>
+                                                         <php>$i=1;</php>
+							<foreach name="MenuList" item="value" key="key">
+                                                        <tr>
+                                                            <td>{$i++}</td>
+                                                            <td>{$value.name}</td>
+                                                            <td>{$value.international_price}</td>
+                                                            <td>{$value.weight}</td>
+                                                            <td>{$value.name}</td>
+                                                            <td>{$value.international_price}</td>
+                                                            <td>{$value.weight}</td>
+                                                        
+                                                        </tr>
+                                                        </foreach>
+						</tbody>
+					</table>
+

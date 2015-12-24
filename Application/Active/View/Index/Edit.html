@@ -1,0 +1,67 @@
+<form id="goodsAddForm" class="form-horizontal" name="goodsAddForm" method="post" action="{$update}" enctype="multipart/form-data"/>
+    <fieldset>
+    <legend>老用户</legend>
+    <input type="hidden" name="oldobject" value="{$oldList.object}"/>
+    <div class="control-group">
+        <label class="control-label" for="oldcount">数量(张)</label>
+        <div class="controls">
+        <input type="text" name='oldcount' id="oldcount" value="{$oldList.count}" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="oldcover">金额(元)</label>
+        <div class="controls">
+            <input type="text" name='oldcover' id="oldcover" value="{$oldList.cover}" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="oldduration">有效期(天)</label>
+        <div class="controls">
+            <input type="text" name='oldduration' id="oldduration" value="{$oldList.duration}" >
+        </div>
+    </div>
+        <div class="control-group">
+        <label class="control-label" for="oldstate">状态</label>
+        <div class="controls">
+            <select name="oldstate">
+                <option value="0">正常</option>
+                <option value="1" <eq name="oldList.state" value="1">selected="selected"</eq>>停用</option>
+            </select>
+        </div>
+    </div>
+</fieldset>
+    <fieldset>
+    <legend>新用户</legend>
+    <input type="hidden" name="newobject" value="{$newList.object}"/>
+    <div class="control-group">
+        <label class="control-label" for="newcount">数量(张)</label>
+        <div class="controls">
+        <input type="text" name='newcount' id="newcount" value="{$newList.count}" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="newcover">金额(元)</label>
+        <div class="controls">
+            <input type="text" name='newcover' id="newcover" value="{$newList.cover}" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="newduration">有效期(天)</label>
+        <div class="controls">
+            <input type="text" name='newduration' id="newduration" value="{$newList.duration}" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="newstate">状态</label>
+        <div class="controls">
+            <select name="newstate">
+                <option value="0">正常</option>
+                <option value="1" <eq name="newList.state" value="1">selected="selected"</eq>>停用</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">保存</button> <button class="btn">取消</button>
+    </div>
+</fieldset>
+</form>

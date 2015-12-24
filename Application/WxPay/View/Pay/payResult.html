@@ -1,0 +1,51 @@
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+body{ background: #fff;color: #333; font-size: 16px; }
+.system-message{ padding: 24px 48px; margin-left: 10px; }
+.system-message h1{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+.system-message .jump{ padding-top: 0px; float:left; }
+.system-message .jump a{ color: #333;}
+.system-message .success{color: #00ff00;}
+.system-message{ line-height: 2em; font-size: 15px;float:left; }
+.system-message .detail{ font-size: 12px; line-height: 20px; margin-top: 12px; display:none}
+.system-border {width:80%;margin: auto; margin-top: 0%; padding-top: 10px;padding-bottom: 20px;padding-left: 16px;padding-right: 10px;background-color: #F5F5F5; border:1px solid #E3E3E3;border-radius: 10px}
+.system-content{margin-left: 10%;font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif;;font-size: 14px;}
+.img{float:left;width:90px;}
+.error{line-height: 2em; font-size: 15px;float:left;color: #ff0000; }
+.cha{color: #ff0000;}
+.dui{color: #00ff00;}
+.clr{clear:both;}
+</style>
+<div class="system-message system-border system-content ">
+    <php> if($status == 'error') {</php>
+    <div class="img cha"><span class="glyphicon glyphicon-remove"></span></div>
+    <div class="error"><?php echo $tips ?></div>
+    <div class="clr"></div>
+    <php> }else{</php>
+    <div class="img dui"><span class="glyphicon glyphicon-ok"></span></div>
+    <div class="success"><?php echo $tips ?></div>
+    <div class="clr"></div>
+    <php> }</php>
+<p class="detail"></p>
+<div class="p"><p class="jump">
+系统将在<b id="wait">{$waitSecond}</b>秒后为您<a id="href" href="{$jumpUrl}">跳转...</a><br>请稍候...
+</p></div>
+</div>
+<!--
+{$tips}
+<p class="jump">
+系统将在<b id="wait">{$waitSecond}</b>秒后为您<a id="href" href="{$jumpUrl}">跳转</a>。请稍候。
+</p>
+-->
+<script type="text/javascript">
+(function(){
+var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+var interval = setInterval(function(){
+	var time = --wait.innerHTML;
+	if(time <= 0) {
+		location.href = href;
+		clearInterval(interval);
+	};
+}, 1000);
+})();
+</script>

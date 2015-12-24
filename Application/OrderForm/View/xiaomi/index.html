@@ -1,0 +1,174 @@
+<style>
+.b{
+    font-size:22px;
+        color:#333333;
+        width:250px;
+        }
+</style>
+<section>
+<!--<form onsubmit="javascript:return check(theForm);" action="order.php?act=done" method="post" name="theForm" id="theForm">-->
+<div class="pending-detial">
+    <h2>订单信息</h2> 
+    <!--商品列表begin-->
+    <div class="list">
+        <ul><php>$total = 0; </php>
+    <foreach name="product" item="soure" key="skey">
+        <foreach name="soure" item="sLogistic" key="lkey">
+<!--            <php>$subTotal = 0;$homefreight = 0; $subWeight = 0;$maxhomefreight = 0;$maxcoupon = 0;</php>-->
+            <foreach name="sLogistic" item="value" key="key">
+                                          
+            <li class="first clearfix" id="good-{$value.id}" data-id="{$value.id}" data-price="{$value['purchasing_price']}" data-count="{$value.product_quantity}"><!--  商品 -->        
+            <a href="goods.php?id=33" target="_blank"><img src="{$value.focus_pictures.url}"></a>          
+            <div class="pro-info">
+                <a href="goods.php?id=4" target="_blank">{$value.name}</a>
+                <p class="price">海外同步价：<strong><php>echo format_money($value['purchasing_price']);</php>元</strong><br>
+                    净重：{$value.weight}<br>
+                    国内邮费：<php>echo format_money($value['domestic_transportation_expenses']);</php>元<br>
+                    优惠政策：{$value['discount_way']}</p>
+               
+                    <php>                   
+                        if( $maxhomefreight<$value['domestic_transportation_expenses']){
+                        $maxhomefreight = $value['domestic_transportation_expenses'];
+                        }
+                        if( $maxcoupon<$value['discount_amount']){
+                        $maxcoupon = $value['discount_amount'];
+                        }                        
+                        $weight = $value['weight']*$value['product_quantity'];
+                        $subWeight += $weight;                       
+                    </php>
+                <gt name="value.discount_amount" value="0">
+                <p class="c">优惠金额：<php>echo format_money($value['discount_amount']);</php>元</p></gt>
+            </div>
+            <span style="font-size:20px;">×{$value.product_quantity}</span>
+            </li>
+            <php>$subTotal += $value['product_quantity']*$value['purchasing_price']; </php>
+            </foreach>
+            <li class="total">
+                 
+            <span class="red">小计<php>echo format_money($subTotal);</php></span>
+            </li>
+            
+            <php>break;</php>
+            </foreach>
+         <php>break;</php>
+        </foreach>
+        </ul>
+    </div><!--商品列表end-->
+    <!--收货地址begin-->
+    <div class="user-info">
+        <h3>收货人信息</h3>
+        <ul>
+            <li>
+                <p class="title">联络贵宾：</p>
+                <p class="user">rwer</p>
+            </li>
+            <li>
+                <p class="title">联络电话：</p>
+                <p class="user">ewrer&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            </li>
+            
+            <li class="add">
+                <p class="title">收货地址：</p>
+                <p class="user">龙岩 长汀县 e</p>
+            </li>           
+        </ul>
+    </div><!--收货地址end-->
+    <!--支付方式begin-->
+    <div class="zhifu">
+        <h3>支付方式</h3>
+        <ul>        
+            <label><li>
+                    <p class="title"><input id="payment" name="payment" value="1" iscod="0" onclick="selectPayment(this)" type="radio">电脑支付宝接口</p>
+                    <p class="sum">￥0.00</p>
+            </li></label>
+       
+            <label><li>
+                    <p class="title"><input id="payment" name="payment" value="5" iscod="0" onclick="selectPayment(this)" type="radio">支付宝转账付款</p>
+                    <p class="sum">￥0.00</p>
+            </li></label>        
+        </ul>
+    </div><!--支付方式end-->
+    <div class="other_list">
+        <h3>其他信息</h3>
+        <ul>
+            <table align="center" border="0" cellpadding="5" cellspacing="1" width="99%">               
+            <tbody><!--  是否使用红包 -->
+            <tr>
+                <td class="border" bgcolor="#ffffff"><strong>优惠券:</strong></td>
+                <td class="border" bgcolor="#ffffff">
+                    <select name="bonus" onchange="changeBonus(this.value)" id="ECS_BONUS" data-value="0" style="border:1px solid #ccc;">
+                                               
+                        <foreach name="coupon" item="value">
+                            <option id="coupon" value="0" selected="" data-id="{$value.id}" data-value="{$value.cover}"  onclick="selCoupon($(this))">面额：<php>echo format_money($value['cover']);</php>
+                            使用期限：<php>echo date("Y-m-d H:i",$value['end_time']);</php></option>
+                        </foreach>
+                        <option id="" value="0" selected=""  data-value="" onclick="delCoupon()" >请选择使用优惠劵</option>
+                    </select><br>
+                </td>
+            </tr><!--  是否使用红包 -->
+            <tr>
+                <td class="border" colspan="2" style="padding:20px 0px;" align="center" bgcolor="#ffffff">
+                    <div onclick="onFreight()">
+                        <p class="b">运费</p>
+                            <div class="search off" style=" display:none;" id="freight">
+                                <div>
+                                    <ul>
+                                       <li>总净重：{$subWeight}G</li>
+                                       <li>包装重：{$freight[4]['SYSTEM_PACKAGE_HEAVY']}G</li>
+                                       <li>总重:<php>
+                                           echo $subWeight+$freight[4]['SYSTEM_PACKAGE_HEAVY'];</php>G</li>
+                                       <li>国际费用：<php>
+                                           $ttweight = $subWeight+$freight[4]['SYSTEM_PACKAGE_HEAVY'];
+                                           if($ttweight<=$freight[0]['SYSTEM_FIRST_HEAVY']){
+                                           $interfreight = $freight[1]['SYSTEM_FIRST_COST'];
+                                           }
+                                           else {
+                                           $weight1 = (($subWeight+$freight[4]['SYSTEM_PACKAGE_HEAVY'])-$freight[0]['SYSTEM_FIRST_HEAVY'])/$freight[2]['SYSTEM_CONTINUE_HEAVY'];
+                                           $weight2 = ceil($weight1);
+                                           $interfreight = $weight2*$freight[3]['SYSYEM_CONTINUE_COST']+$freight[1]['SYSTEM_FIRST_COST'];
+                                           }
+                                           echo format_money($interfreight);</php>元</li>
+                                       <li>国内费用：<php>
+
+                                           echo format_money($maxhomefreight);
+                                       </php>元</li></ul>
+                                </div>
+                                <div>
+                                    <ul><li>首重：{$freight[0]['SYSTEM_FIRST_HEAVY']}元&nbsp;&nbsp;&nbsp;首重费用：{$freight[1]['SYSTEM_FIRST_COST']}元<br>
+                                            续重：{$freight[2]['SYSTEM_CONTINUE_HEAVY']}元&nbsp;&nbsp;&nbsp;续重费用：{$freight[3]['SYSYEM_CONTINUE_COST']}元<br>
+                                            国内运费：单一商品中国内运费的最大值</li>
+                                    </ul>
+                                </div>
+                            </div>
+                         <p class="b">快递费<php>echo format_money($interfreight+$maxhomefreight);</php>元</p>   
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="border" colspan="2" style="padding:20px 0px;" align="center" bgcolor="#ffffff">
+                    <div id="ECS_ORDERTOTAL">
+                    <table border="0" cellpadding="5" cellspacing="1" width="100%">
+                            <tbody>
+                                <tr><td> 优惠总额: <font id="totalFvorable" data-value="{$maxcoupon}" class="f4_b"><php>$total = $subTotal+$interfreight+$maxhomefreight;$deal = $total-$maxcoupon;echo format_money($maxcoupon);</php>元</font></td>
+                                </tr>
+                                <tr><td> 商品总价（含运费）: <font id="total" data-value="{$total}" class="f4_b"><php> echo format_money($total);</php></font>元</td>
+                                </tr>                             
+                                <tr><td> 应付款金额: <font id="deal" data-value="{$deal}" class="f4_b"><php> echo format_money($deal);</php></font>元</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                    </div>
+                </td>
+            </tr>            
+            <tr>
+                <td class="border" colspan="2" style="padding:20px 0px;" align="center" bgcolor="#ffffff">
+                    <input onclick="update()" id="Submit" class="ddbtn" name="Submit" value="提交订单" type="submit"></td>
+            </tr>            
+        </tbody>
+        </table>
+        </ul>
+    </div>
+</div>
+<!--</form>-->
+</section>
+{$js}

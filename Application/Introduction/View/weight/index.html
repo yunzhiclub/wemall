@@ -1,0 +1,45 @@
+<form id="goodsEditForm" class="form-horizontal" name="goodsEditForm" method="post"  action="{$urlUpdate}"/>
+<fieldset>  
+   <input name ="id" type="hidden" value="1" />
+   <div class="control-group">
+                                <label class="control-label" for="firstWeight">首重</label>
+                                <div class="controls">
+                                <input type="text" name='firstWeight' id="firstWeight" value="{$firstHeavy.value}" >
+                                </div>
+                            </div>
+   <div class="control-group">
+                                <label class="control-label" for="firstCost">首重费用</label>
+                                <div class="controls">
+                                <input type="text" name='firstCost' id="firstCost" value="{$firstCost.value}" >
+                                </div>
+                            </div>
+   <div class="control-group">
+                                <label class="control-label" for="continueWeight">续重</label>
+                                <div class="controls">
+                                <input type="text" name='continueWeight' id="continueWeight" value="{$continueHeavy.value}" >
+                                </div>
+                            </div>
+   <div class="control-group">
+                                <label class="control-label" for="continueCost">续重费用</label>
+                                <div class="controls">
+                               <input type="text" name='continueCost' id="name" value="{$continueCost.value}" >
+                                </div>
+                            </div>
+   <div class="control-group">
+                                <label class="control-label" for="packageHeavy">包装重</label>
+                                <div class="controls">
+                                <input type="text" name='packageHeavy' id="packageHeavy" value="{$packageHeavy.value}" >
+                                </div>
+                            </div>
+   <div class="control-group">
+                                <label class="control-label" for="freightExplain">运费说明</label>
+                                <div class="controls">
+                                    <textarea rows = "3" clos="30" name='freightExplain' id="freightExplain">{$freightExplain['value']}</textarea>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-actions">
+				<button type="submit" class="btn btn-primary">保存</button> <button class="btn">取消</button>
+			    </div>
+</fieldset>
+</form>

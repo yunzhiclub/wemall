@@ -1,0 +1,23 @@
+[ 2015-04-21T10:30:51+08:00 ] 127.0.0.1 /wemall/WeiPHP/interface.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Undefined index: echostr D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ValidController.class.php 第 10 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ValidController.class.php 第 20 行.
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ValidController.class.php 第 21 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ValidController.class.php 第 22 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Common\function.php 第 5 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 15 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\WechatController.class.php 第 16 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\IndexController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

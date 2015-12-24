@@ -1,0 +1,47 @@
+
+<form id="UserEditForm" class="form-horizontal" name="UserEditForm" method="post" action="{$User.actionUrl.save}" />
+<fieldset>
+    <php></php>
+    <legend> 修改个人信息</legend>
+    <eq name="Think.const.ACTION_NAME" value="edit">
+    <input type="hidden" name="id" value="{$User['userid']}"/>
+    </eq>
+    <div class="control-group">
+        <label class="control-label" for="userid">用户名</label>
+        <div class="controls">
+            <input type="hidden" name='userid' id="userid" value="{$User.userid}" />
+            <span>{$User.userid}</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="name">姓名</label>
+        <div class="controls">
+            <input type="text" name='name' id="name" value="{$User.name}" /><span class='tip'>*</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="email">邮箱</label>
+        <div class="controls">
+            <input type="text" name='email' id="email" value="{$User.email}" /><span class='tip'>*</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="action">手机</label>
+        <div class="controls">
+            <input type="text" name="phone" id="phone" value="{$User.phone}" /><span class='tip'>*</span>
+        </div>
+    </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">保存</button> <button class="btn" type="button" onclick="location = '{$url}'">取消</button>
+        </div>
+</fieldset>
+</form>
+<style>
+       .tip{
+        
+        color: red;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+</style>

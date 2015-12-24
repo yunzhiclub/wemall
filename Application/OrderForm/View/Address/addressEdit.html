@@ -1,0 +1,49 @@
+<div class="addressEdit container-fluid">
+    <php>$value = $address;</php>
+  <div class="row">
+    <div class="col-xs-12">
+      <input type="text" placeholder="请填写收货人姓名需与身份证相同" class="form-control" id="name" name="name" value="{$value.name}" >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <input type="text" placeholder="联系人手机号码" class="form-control" name="phone" id="phone"  value="{$value.phone}" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <input type="text" placeholder="所在省份" class="form-control" name="provice" id="provice"  value="{$value.provice}" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <input type="text" placeholder="所在城市" class="form-control" name="city" id="city"  value="{$value.city}"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <input type="text" placeholder="详细地址"  class="form-control" name="address" id="address" value="{$value.address}">
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-xs-12">
+      <input type="text" placeholder="请填写身份证号" class="form-control" name="id_no" id="id_no"  value="{$value.id_no}">
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12 ids">
+        <span>身份证信息：</span>
+        <span class="btn btn-small card-btn" id="frontid" onclick="chooseImage($(this));" data-value="{$value.frontid}"><a>+正面</a></span>
+      <span class="btn btn-small card-btn" onclick="chooseImage($(this));" id="backid" data-value="{$value.backid}"><a>+反面</a></span>
+    </div>
+  </div>
+  <div class="row description">
+      <div class="col-xs-12  text-left">
+      <p class="red">若无法上传身份信息,货物将由国内转运再到您手中。</p></p>直邮、免税商品需要办理入境申报,您所上传身份证明将用于办理海光清关手续，绝不作其它用途。其它用户无法查看您上传的身份证信息。</p>
+      </div>
+      <div class="col-xs-10 col-xs-offset-1">
+        <button type="button" style="color:#000;background-color:#ffe400;border-color:#ffe400;" class="btn btn-info btn-zhenfan" data-openid="{$openid}" data-id="{$address.id}" onclick="addAddressInfo($(this))">完成保存</button>
+      </div>
+  </div>
+</div>
+{$addressCss}

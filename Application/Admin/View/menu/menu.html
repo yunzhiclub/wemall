@@ -1,0 +1,24 @@
+
+<table>
+        <php> $header = array("标题","URL","是否开发模式","排序","操作","是否隐藏","说明");</php>
+        <tr>
+        <foreach name="header" item="value" key="k">
+            <th>{$value}</th>
+        </foreach>
+        </tr>
+        <foreach name="adminMenu" item="value" key="key">
+        <tr>
+            <td>{$value.title}</td>
+            <td>{$value.pid}</td>
+            <td>{$value.sort}</td>
+            <td>{$value.url}</td>
+            <td>{$value.hide}</td>
+            <td>{$value.tip}</td>
+            <td>{$value.group}</td>
+            <td>{$value.is_dev}</td>
+            <td><a onclick="#" href="{$urlEdit}id={$value.id}">添加子菜单</a>
+                <a onclick="#" href="{$urlEdit}id={$value.id}">修改</a>
+                <a onclick="#" href="{$urlDelete}id={$value.id}">删除</a></td>   
+        </tr>
+    </foreach>
+    </table>

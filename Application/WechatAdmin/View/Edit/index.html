@@ -1,0 +1,15 @@
+<form id="replyEditForm" name="replyEditForm" method="post" target="http://www.biadu.com" />
+                <input type="hidden" value="{$reply['id']}" />
+                标题:<input type="text" name="name" value="{$reply['name']}" /><br />
+                回复类型：<input type='radio' name="event_type" value="0" <eq name='reply.event_type' value='0'>checked="checked"</eq>/>关注 &nbsp;&nbsp;
+                <input type='radio' name="event_type" value="1" <eq name='reply.event_type' value='1'>checked="checked"</eq> />事件<br />
+                图文类型：<input type='radio' name="news_type" value="0" <eq name='reply.news_type' value='0'>checked="checked"</eq>/>文字&nbsp;&nbsp;
+                <input type='radio' name="news_type" value="1" <eq name='reply.news_type' value='1'>checked="checked"</eq>/>图文<br />
+                回复标题<input type="text" name="title" value="{$reply.title}" /><br/>
+                回复文本描述<br /><textarea name="description" rows="10" cols="30">{$reply.description}</textarea><br />
+                图文消息图片地址<input type="text" value="{$reply.picurl}" name="picUrl" /><br />
+                图文消息链接地址<input type="text" value="{$reply.url}" name="url" /><br />
+                事件关键字<input type="text" value="{$reply.event_key}" name="event_key" /><br />    
+                <a onclick="hello()" href="#">保存</a><a onclick="" href="#">重置</a>
+            </form>
+

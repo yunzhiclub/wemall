@@ -1,0 +1,43 @@
+<div class="content addressChoose">
+  <div class=" list-group-item">
+    <a href="javascript:void(0)" class="add-address" onclick="addAddress($(this))">
+    <table>
+      <tr>
+        <td><span class="glyphicon glyphicon-plus"></span></td>
+        <td>新增收货地址</td>
+        <td class="num-address">你还可以新增{$data.allowAddressNo}个收货地址</td>
+      </tr>
+    </table>
+    </a>
+  </div>
+  <div class="dis">
+    请选择默认收货地址:
+  </div>
+  <ul class="list-address list-group">
+    <foreach name="address" item="value" key="key">
+        <li class="list-address-item list-group-item">
+          <table>
+            <tr id="address-{$value.id}">
+                <td class="col1" style="font-size: 25px;" onclick="chooseAddress($(this))" data-value="{$value.id}"><php> if($i++ == 0) echo '<span class="glyphicon glyphicon-ok-circle"></span>';</php></td>
+              <td onclick="chooseAddress($(this))" data-value="{$value.id}" class="address">
+                <span>
+                    {$value.name}&nbsp;&nbsp;{$value.phone}<br>
+                    {$value.provice}{$value.city}{$value.address}
+                </span>
+              </td>
+              <td class="col3">
+                  <neq name="i" value="1">
+                  <a style="color:green" href="javascript:void(0)" data-id="{$value.id}" onclick="deleteAddress($(this))"><i class="glyphicon glyphicon-remove"></i>删除</a>
+                  </neq>
+                  <a style="color:red" href="#" data-id="{$value.id}" onclick="editAddress($(this))" class="edit"><span class="glyphicon glyphicon-pencil"></span> 编辑</a></td>
+            </tr>
+          </table>
+        </li>
+    </foreach>
+  </ul>
+  <!--div class="">
+      <button type="button" class="btn btn btn-info btn-zhenfan" onclick="">完成返回</button>
+  </div-->
+  {$js}
+{$addressCss}
+</div>

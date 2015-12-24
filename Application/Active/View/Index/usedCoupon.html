@@ -1,0 +1,22 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+            <tr>
+                    <th>昵称</th>                                                     
+                    <th>面额</th>
+                    <th>发放时间</th>
+                    <th>使用时间</th>
+            </tr>
+    </thead>
+    <tbody>
+             <php>$i=1;</php>
+            <foreach name="used" item="value" key="key">
+            <tr>
+                <td>{$value._openid.nickname}</td>
+                <td>{$value.cover|format_money}</td>
+                <td>{$value.start_time|date="y/m/d H:s",###}</td>
+                <td>{$value.use_time|date="y/m/d H:s",###}</td>
+            </tr>
+            </foreach>
+    </tbody>
+</table>
+<div class="pagination" align="center">{$page}</div>

@@ -1,0 +1,465 @@
+[ 2015-05-27T15:05:06+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710306' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710306' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-27T15:07:13+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710344' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710344' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-27T15:10:28+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710437' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710437' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-27T15:12:10+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710631' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710631' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE' LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: total_direct_fee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderRelation\Model\OrderRelationModel.class.php 第 450 行.
+NOTIC: [8] Undefined index: total_line_fee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderRelation\Model\OrderRelationModel.class.php 第 451 行.
+NOTIC: [8] Undefined index: total_goods_fee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderRelation\Model\OrderRelationModel.class.php 第 452 行.
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-27T15:13:14+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710733' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710733' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-05-27T15:14:56+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710799' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710799' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-27T15:15:31+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710898' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710898' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-05-27T15:20:37+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710936' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432710936' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-27T15:20:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `wemall_custom_menu` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432711240' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432711240' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 569077 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 0 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant direct - assumed 'direct' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _totalDirectFee - assumed '_totalDirectFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant _direct_radio - assumed '_direct_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant direct_ratio - assumed 'direct_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant _totalGoodsFee - assumed '_totalGoodsFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant line - assumed 'line' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _totalLineFee - assumed '_totalLineFee' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant _line_radio - assumed '_line_radio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant line_ratio - assumed 'line_ratio' D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

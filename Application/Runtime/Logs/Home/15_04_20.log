@@ -1,0 +1,1133 @@
+[ 2015-04-20T07:54:04+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.026002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.039003s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.059004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.065004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.064003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.098006s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.098005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2015-04-20T08:15:24+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031002s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.035002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.043003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.050003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.063004s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.063004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-20T08:16:03+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033002s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.045003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.051003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.065004s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.065003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-20T10:23:56+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.023001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.023002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.030002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.055003s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.060004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.074004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.074004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.076005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.082005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.100006s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.103006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-20T11:15:20+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035002s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.041002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.051003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.062003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.061003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081004s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.081005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-20T11:30:28+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.028002s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.039002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.046003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.046002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.058004s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-20T14:40:11+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.030001s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.034002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.042002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.052003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.053003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066003s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.066004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-20T16:11:30+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.029001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.028001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.037002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.035002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.049002s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 29 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.065003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.072004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.071004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.086004s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.085005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-20T20:43:30+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php?s=/home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:main
+
+[ 2015-04-20T20:43:35+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,5   [ RunTime:0.0600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.073004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.085005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.093005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.094005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.112006s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.097005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.114006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.119006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.116006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.120007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.125007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.121007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.124007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.126007s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.125007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.134007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-20T20:43:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `wemall_goods` WHERE ( state=1 ) ORDER BY reorder desc LIMIT 0,5   [ RunTime:0.0590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.023000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.028000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.029000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.032000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040001s ]
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+NOTIC: [8] Undefined index: policy D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 21 行.
+NOTIC: [8] Undefined index: direct_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 25 行.
+NOTIC: [8] Undefined index: line_ratio D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\dc2fd1a790c1b5068eb9330f1fc932c4.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.047001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.044001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.051001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.053002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061002s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\Home\233fbf9168edde0a88a274a719127571.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.054002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.061002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

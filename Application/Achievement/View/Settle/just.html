@@ -1,0 +1,46 @@
+<div>统计周期：{$beginTime|date="Y年m月d日 H:i",###}&nbsp;&nbsp;至&nbsp;&nbsp;{$endTime | date="Y年m月d日 H:i",###}</div>
+<a href="{$createUrl}" class="button">(重新)生成本期业绩</a>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr class="head">
+            <th>姓名</th>
+            <th>账号</th>
+            <th>流水号</th>
+            <th>手机号</th>
+            <th>直销业绩</th>
+            <th>直销基数</th>
+            <th>直销系数</th>
+            <th>分销业绩</th>
+            <th>分销基数</th>
+            <th>分销系数</th>
+            <th>应发提成</th>
+            <th>实发</th>
+            <th>操作</th>
+            <th>备注</th>
+        </tr>
+    </thead>
+    <tbody>
+        <foreach name="data" item="value" key="key">
+        <tr>
+            <td>{$value.openid.nickname}</td>
+            <td>{$value.openid.aipayid}</td>
+            <td><span class='sno'>{$value.serial_number}</span></td>
+            <td>{$value.openid.phone_number}</td>
+            <td style="text-align:right"><php>echo format_money($value['direct_total_fee']);</php></td>
+            <td style="text-align:right"><php>echo format_money($value['direct_base']);</php></td>
+            <td>{$value.direct_coe}</td>
+            <td style="text-align:right"><php>echo format_money($value['line_result']);</php></td>
+            <td style="text-align:right"><php>echo format_money($value['line_base']);</php></td>
+            <td>{$value.line_coe}</td>
+            <td style="text-align:right"><php>echo format_money( floor($value['direct_base']*$value['direct_coe'] + $value['line_base']*$value['line_coe'] ));</php></td>
+        <td style="text-align:right"><php>echo format_money($value['real_pay']);</php></td>
+        <td><eq name="value.state" value="0"><a href="{$value.actionUrl.payUrl}"><button class="btn btn-mini btn-primary" type="button">发放</button></a></eq></td>
+            <td><span class='remark'>{$value.remark}</span></td>
+        </tr>
+            </foreach>
+    </tbody>
+</table>
+<div class="pagination">{$page}</div>
+<div class="js off">
+    {$js}
+</div>

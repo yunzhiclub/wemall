@@ -1,0 +1,7 @@
+<ul class="{$class}">
+    <foreach name="data" item="value" key="key">
+        <eq name="value.hide" value="0">
+        <li class="{$value.class}"><a href="{$value.url}">{$value.title}</a></li>
+        </eq>
+    </foreach>
+</ul>

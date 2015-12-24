@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<title><block name="title">{$title}</block></title>
+<foreach name="YZCss" item="value" key="key">
+            <link href="{$value}" rel="stylesheet" type="text/css">
+        </foreach>
+        <foreach name="YZJs" item="value" key="key">
+            <script type="text/javascript" src="{$value}" ></script>
+        </foreach>
+        
+        <block name="head">{$head}</block>
+</head>
+<body>
+
+    <block name="body"></block>    
+</body>
+</html>

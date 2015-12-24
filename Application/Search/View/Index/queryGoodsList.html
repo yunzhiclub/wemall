@@ -1,0 +1,38 @@
+
+    <foreach name="list" item="goods">
+    <li class="goods-list">
+        <a class="goods-list-content" href="{$goodsDetailUrl}?goodsId={$goods.id}">
+            <span class="thumbnail"><img width="" height=""  src="{$rootPath}/Uploads/Picture/Goods/2.jpg" alt="..."></span>
+        <table class="list-table">
+            <tr>
+                <td colspan="2" class="goods-name" >{$goods.name}</td>
+            </tr>
+            <tr>
+                <td class="list-col1 goods-deliver" >
+                    <img width="20px" height="20px" src="{$rootPath}/Uploads/Picture/Country/1.png" alt="..." class="img-circle">
+            <eq name="goodslogistics_mode" value="0">海外直邮<else/>保税直邮</eq>
+                </td>
+                <td class="list-col2 arrive-days" >预计到手：{$goods.arrive_days}</td>
+            </tr>
+            <tr>
+                <td class="list-col1 international_price ">海外同步价：{$goods.international_price}</td>
+                <td class="list-col2 purchasing_price">代购参考价：{$goods.purchasing_price}</td>
+            </tr>
+            <tr>
+                <td class="list-col1 policy">优惠政策：{$goods.policy}</td>
+                <td class="list-col2 customs">关税：{$goods.customs}</td>
+            </tr>
+            <tr>
+                <td class="list-col1" direct_ratio>直销返点：{$goods.direct_ratio}</td>
+                <td class="list-col2" line_ratio>线销返点：{$goods.line_ratio}</td>
+            </tr>
+        </table>
+        </a>
+        <div class="clr"></div>
+    </li>
+    </foreach>
+
+
+    
+
+

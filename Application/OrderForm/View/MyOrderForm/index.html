@@ -1,0 +1,38 @@
+<div class="detail-head">
+    <div class="detail-back"><a href="javascript:void(0)" onclick="back()"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a></div>
+    <div class="detail-title"><h1>我的订单</h1></div>
+</div>
+<ul class="order-nav-row">
+    <li class="order-nav current" data-state="-1" onclick="choose($(this))"><a class="on" href="javascript:void(0)">全部</a></li>
+    <li class="order-nav" data-state="0" onclick="choose($(this))"><a href="javascript:void(0)">待付款</a></li>
+    <li class="order-nav" data-state="1" onclick="choose($(this))"><a href="javascript:void(0)">待发货</a></li>
+    <li class="order-nav" data-state="2" onclick="choose($(this))"><a href="javascript:void(0)">待收货</a></li>
+    <li class="order-nav" data-state="3" onclick="choose($(this))"><a href="javascript:void(0)">已完成</a></li>
+    <li class="clr"></li>
+</ul>
+<div class="order-content">
+    {$listContent}
+</div>
+<script>
+    function choose($this){
+        $(".order-nav a").removeClass("on");
+        $this.find("a").addClass("on");
+        $this.addClass("current").siblings().removeClass("current");
+        var dataState = parseInt($this.attr("data-state"));
+        $(".order-content").html('<div class="loading"></div>');
+        if(dataState === -1){
+             
+            $.get("{$chooseAllUrl}",function(data){
+    
+                $(".order-content").html(data);
+            });
+        }else{
+            
+            $.get("{$chooseStatusUrl}?orderFormState="+dataState,function(data){
+                $(".order-content").html(data);
+            });
+        }
+        
+        
+    }
+</script>

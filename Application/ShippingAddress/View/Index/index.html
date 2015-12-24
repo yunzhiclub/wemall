@@ -1,0 +1,62 @@
+<head>
+    <meta http-equiv="content-Type" content="text/html;charset=utf-8" />
+    <style tyle="text/css">
+    .show{
+        border: 1px  #000 solid;width:630px;margin: auto;
+    }
+    .index{
+        border-top: 2px red solid;width: 630px;margin: auto;
+    }
+    .index ul{
+    }
+    .index ul li{ 
+        list-style: none;float: left;width: 95px;margin: auto;text-align: center;
+    }
+    .clr{
+        clear: both;font: none;margin: 0px;padding: 0px;border: 0px;
+    }
+   
+    .title{
+        width: 700px;margin: auto;height: 50px;
+    }
+     .tianjia{
+        width: 80px;float: left;height: 50px;text-align: center;border: 1px #ff00cc solid
+    }
+    .shippingaddress{
+        width: 550px;height: 50px;text-align: center;float: left;
+    }
+   </style>
+</head>
+<div class="show">
+    <div class="title">
+        <div class="shippingaddress">
+            收货地址管理
+        </div>
+        <div class="tianjia">
+            <a href="">添加</a>
+        </div>
+    </div>
+    <div class="index">
+    <ul>
+        <li>姓名</li>
+        <li>地址</li>
+        <li>手机</li>
+        <li>正面ID</li>
+        <li>反面ID</li>
+        <li>操作</li>
+        <div class="clr"></div>
+    </ul>
+    <foreach name="shipping" item="value" >
+        <ul>
+            <li>{$value['name']}</li>
+            <li>{$value['address']}</li>
+            <li>{$value['telephone']}</li>
+            <li><img src="{$value['pic_frontname']}" height="50px" width="50px"></li>
+            <li><img src="{$value['pic_reversename']}" height="50px" width="50px"></li>
+        <li><a  href="{$value.actionUrl.edit}">修改</a><a href="{$value.actionUrl.delete}">删除</a></li>
+        <div class="clr"></div>
+    </ul>
+    </foreach>
+</div>
+        </div>
+

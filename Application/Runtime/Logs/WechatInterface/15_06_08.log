@@ -1,0 +1,332 @@
+[ 2015-06-08T14:53:25+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `wemall_customer` SET `openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`nickname`='潘杰',`sex`='1',`city`='河北',`province`='天津',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLBCjgjWGsBRDvsbYzEnsgdZyMUScoWaewa8a66AjN4mRyqoiaPpxGAGxDQ3RqfakMwqfTL44B2u1WQ/0',`subscribe_time`='1432797418',`remark`='' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_reply` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_reply` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 537 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 537 LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-08T14:54:26+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433746446','1436338446','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0170s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: newOpenid D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 170 行.
+NOTIC: [8] Undefined variable: oldOpendid D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_set_redpacket`  [ RunTime:0.0090s ]
+
+[ 2015-06-08T14:55:06+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0090s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433746469','1436338469','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0270s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: oldOpendid D:\xampp\htdocs\wemall\ThinkPHP\Application\WechatInterface\Controller\ResponseEventController.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket`  [ RunTime:0.0100s ]
+
+[ 2015-06-08T15:05:49+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433746512','1436338512','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.4400s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_set_redpacket`  [ RunTime:0.0100s ]
+
+[ 2015-06-08T15:07:10+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433747155','1436339155','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0200s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket`  [ RunTime:0.0200s ]
+
+[ 2015-06-08T15:10:56+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433747456','1436339456','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket`  [ RunTime:0.0100s ]
+
+[ 2015-06-08T15:12:11+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433747462','1436339462','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket`  [ RunTime:0.0100s ]
+
+[ 2015-06-08T15:14:25+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433747654','1436339654','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket`  [ RunTime:0.0000s ]
+
+[ 2015-06-08T15:24:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433748042','1436340042','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-08T15:25:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433748294','1436340294','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-08T15:47:24+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433749570','1436341570','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_wechat_redpacket` WHERE `re_openid` = '' LIMIT 1   [ RunTime:0.0100s ]
+
+[ 2015-06-08T16:19:58+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433751598','1436343598','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0100s ]
+
+[ 2015-06-08T16:20:44+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433751612','1436343612','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0100s ]
+
+[ 2015-06-08T16:21:51+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433751661','1436343661','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0100s ]
+
+[ 2015-06-08T16:26:45+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433751967','1436343967','oZuoxt2Y3osCweYYA2H-lfcdtgaQ') [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0110s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433751967','1436343967','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_wechat_redpacket` WHERE `re_openid` = 'oZuoxt2Y3osCweYYA2H-lfcdtgaQ' LIMIT 1   [ RunTime:0.0200s ]
+
+[ 2015-06-08T16:27:15+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/WechatInterface?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_active` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433752011','1436344011','oZuoxt2Y3osCweYYA2H-lfcdtgaQ') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_active` WHERE `object` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_coupon` (`cover`,`duration`,`start_time`,`end_time`,`openid`) VALUES ('800','30','1433752011','1436344011','oZuoxt8tnEUUf6YPBG-mNPYjoKQA') [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2048] Declaration of WxPay\Controller\SendRedGiftController::createXml() should be compatible with WxPay\Controller\WxPayClientPubController::createXml() D:\xampp\htdocs\wemall\ThinkPHP\Application\WxPay\Controller\SendRedGiftController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `wemall_set_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_set_redpacket` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_wechat_redpacket` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_wechat_redpacket` WHERE `re_openid` = 'oZuoxt2Y3osCweYYA2H-lfcdtgaQ' LIMIT 1   [ RunTime:0.0000s ]
+

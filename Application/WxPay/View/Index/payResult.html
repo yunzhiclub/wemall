@@ -1,0 +1,16 @@
+{$tips}
+<p class="jump">
+系统将在<b id="wait">{$waitSecond}</b>秒后为您<a id="href" href="{$jumpUrl}">跳转</a>。请稍候。
+</p>
+<script type="text/javascript">
+(function(){
+var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+var interval = setInterval(function(){
+	var time = --wait.innerHTML;
+	if(time <= 0) {
+		location.href = href;
+		clearInterval(interval);
+	};
+}, 1000);
+})();
+</script>

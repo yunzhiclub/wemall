@@ -1,0 +1,47 @@
+[ 2015-04-13T15:47:43+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php/Slideshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: D方法实例化没找到模型类Slideshow\Model\SlideModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wemall.wemall_slide' doesn't exist
+
+[ 2015-04-13T19:25:11+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php?m=slideshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Slideshow\Model\SlideModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wemall.wemall_slide' doesn't exist
+
+[ 2015-04-13T19:29:18+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php?m=slideshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-04-13T19:33:10+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php?m=slideshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-04-13T19:33:20+08:00 ] 127.0.0.1 /wemall/WeiPHP/admin.php?m=slideshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+

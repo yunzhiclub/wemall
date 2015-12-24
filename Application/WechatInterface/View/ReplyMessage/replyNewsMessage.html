@@ -1,0 +1,17 @@
+<xml>
+    <ToUserName><![CDATA[{$toUserName}]]></ToUserName>
+    <FromUserName><![CDATA[{$fromUserName}]]></FromUserName>
+    <CreateTime><?php echo time(); ?></CreateTime>
+    <MsgType><![CDATA[news]]></MsgType>
+    <ArticleCount><?php echo count($article); ?></ArticleCount>
+    <Articles>
+        <foreach name="article" item="value" key="key">
+        <item>
+            <Title><![CDATA[{$value.title}]]></Title> 
+            <Description><![CDATA[{$value.description}]]></Description>
+            <PicUrl><![CDATA[{$value.picurl}]]></PicUrl>
+            <Url><![CDATA[{$value.url}]]></Url>
+        </item>
+        </foreach>
+    </Articles>
+</xml>

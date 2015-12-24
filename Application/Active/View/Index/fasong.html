@@ -1,0 +1,22 @@
+<h4>销售周期：</h4>{$value.name}
+<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>客户名称</th>
+                                                                <th>销售业绩</th>
+                                                                <th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+                                                         <php>$i=1;</php>
+							<foreach name="MenuList" item="value" key="key">
+                                                        <tr>
+                                                            <td>{$i++}</td>
+                                                            <td>{$value.name}</td>
+                                                            <td>{$value.international_price}</td>
+                                                            <td><a href="{$value.actionUrl.edit}">发送</a></td>
+                                                        
+                                                        </tr>
+                                                        </foreach>
+						</tbody>
+					</table>

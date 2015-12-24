@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><button onclick="queryLoad($(this))" type="button" class="btn btn-info page-btn" data-page="<?php echo ($nextPageNum); ?>">加载更多</button>

@@ -1,0 +1,40 @@
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr class="head">
+            <th>姓名</th>
+            <th>账号</th>
+            <th>流水号</th>
+            <th>手机号</th>
+            <th>直销业绩</th>
+            <th>直销基数</th>
+            <th>直销系数</th>
+            <th>分销业绩</th>
+            <th>分销基数</th>
+            <th>分销系数</th>
+            <th>应发提成</th>
+            <th>实发</th>
+            <th>操作</th>
+            <th>备注</th>
+        </tr>
+    </thead>
+    <tbody>
+        <foreach name="data" item="value" key="key">
+        <tr>
+            <td>{$value.openid.nickname}</td>
+            <td>{$value.openid.aipayid}</td>
+            <td>-</td>
+            <td>{$value.openid.phone_number}</td>
+            <td style="text-align:right"><php>echo format_money($value['direct_result']);</php></td>
+            <td style="text-align:right"><php>echo format_money($value['directFee']);</php></td>
+            <td>{$value.ratio.direct_ratio}</td>
+            <td style="text-align:right"><php>echo format_money($value['_child']['payable']);</php></td>
+            <td style="text-align:right"><php>echo format_money($value['_child']['directFee']);</php></td>
+            <td>{$value._child.ratio.line_ratio}</td>
+            <td style="text-align:right"><php>echo format_money( floor( $value['_child']['directFee']*$value['_child']['ratio']['line_ratio']+$value['directFee']*$value['ratio']['direct_ratio'] ) );</php></td>
+            <td style="text-align:right">-</td>
+            <td></td>
+            <td>-</td>
+        </tr>
+            </foreach>
+    </tbody>
+</table>

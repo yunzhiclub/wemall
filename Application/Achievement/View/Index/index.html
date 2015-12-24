@@ -1,0 +1,201 @@
+
+    <div style="border-bottom:#D9D9D9 solid 2px ; height:70px">
+    <a  class="return" href="#">< </a>
+    <div  class="current_performance">我的业绩</div>	  
+    </div><!--我的业绩-->
+    <div  class="title period">
+        <div style="border-bottom:#D7D7D7 solid 1px">
+            <h3 style="margin:20px; float:left">查看当期业绩</h3>
+            <div class="look" style="width:60px; float:right; height:60px"></div>
+            <div class="clr"></div>
+        </div><!--点击查看当期业绩栏-->
+        <div  class="detailed off"><!--点击详情开始-->
+            <h3 style="  margin-left:5%">直销业绩</h3>
+            <ul style="border-bottom:#E3E3E3 solid 1px; margin-left:5%; margin-right:5%; padding-bottom:20px">
+                  <li>直销基数:￥{$baseDirectPrices}</li>
+                  <li>系数:{$directCoe}</li>
+                  <li style="color:#CC3300; font-weight:bold">应得:￥{$resultDirectPrices}</li>
+            </ul>
+            <h4 style="margin-left:5%; text-align:center">线销业绩</h4>
+            <table border="1px" bordercolor="#D5D5D5" cellpadding="5px" cellspacing="0px" align="center" width="80%" style="margin-bottom:30px">
+                <th>下线昵称</th>
+                <th>销售额</th>
+                <foreach name="lineInfo" item="value" key="key">
+                <tr>
+                       <td align="center">{$value.nickname}</td>
+                       <td align="center">￥{$value.basePrices}</td>
+                </tr>
+                </foreach>
+            </table><!--线销-->
+            <div style="margin-bottom:20px">
+                <h3 style="  margin-left:5%">线销总业绩</h3>
+                <ul>
+                    <li>总线销销售额：￥{$baselinePrices}</li>
+                    <li>系数：{$lineCoe}</li>
+                    <li style="color:#CC3300; font-weight:bold">应得：￥{$resultLienPrices}</li>
+                </ul>
+            </div><!--计算总线销--> 
+		  </div><!--点击后的详情结束-->
+             <div class="clr"></div>
+    </div><!--查看当期业绩div-->
+    <div  class="title"><!--查看往期业绩开始-->
+        <div class="past">
+            <h3  style="margin:20px; float:left">查看往期业绩</h3>
+            <div  style="width:60px; float:right; height:60px" class="look look1"></div>  
+            <div class="clr"></div> 
+        </div><!--查看往期业绩标题栏-->
+    <div class="detailed off" ><!--年份详情开始-->
+    <foreach name="history" item="value" key="key">
+        <div class="title1"><!--2014年业绩大框-->
+            <div class="year year_2014">
+            <h4 class="a" style="float:left">{$value.describe}</h4>
+            <div class="look1"></div>
+            <div class="clr"></div>
+            </div><!--查看2014年业绩情况-->
+            <div class="detailed1 off">
+                <h3 style="margin-left:5%">直销业绩</h3>
+                <ul style="border-bottom:#E3E3E3 solid 1px; padding-bottom:20px">
+                                <li>直销基数:￥{$value.direct.base}</li>
+                                <li>系数:{$value.direct.coe}</li>
+                                <li style="color:#CC3300; font-weight:bold">应得:￥{$value.direct.result}</li>                                                            
+                </ul>
+                <div style="margin-bottom:20px">
+                    <h3 style="  margin-left:5%">线销总业绩</h3>
+                    <ul>
+                        <li>总线销销售额：￥{$value.line.base}</li>
+                        <li>系数：{$value.line.coe}</li>
+                        <li style="color:#CC3300; font-weight:bold">应得：￥{$value.line.result}</li>
+                    </ul>
+                 </div><!--计算总线销--> 
+
+            </div><!--点击查看2014年业绩详情-->
+        </div><!--2014年大框结束-->
+        </foreach>
+    </div>
+    </div><!--年份详情结束-->
+</div><!--查看往期业绩年份结束div-->
+
+<style>
+   .wrap{
+      width:60%;
+	  margin-left:auto;
+	  margin-right:auto;
+	  border:#D9D9D9 solid 1px;
+   }
+ .current_performance{
+   
+   font-size:26px;
+   font-weight:bold;
+   margin:20px;
+   color:#CC0000;
+   float:left;
+ }
+ .return{
+   font-size:26px;
+   margin:20px;
+   margin-left:50px;
+   font-weight:bolder;
+   float:left;
+   text-decoration:none;
+ }
+ .straight_pin{
+   margin-left:5%;
+   float:left;
+   font-size:18px;
+ }
+ .line_pin{
+ float:left;
+ margin:10px;
+ font-size:18px;
+ }
+.look
+ {
+ 	background-image:url('image/drop-down.png');
+	background-repeat:no-repeat;	
+	float:right;
+	width:60px;
+	height:60px;	
+	background-position: center center;		
+ }
+ .look1
+ {
+ 	background-image:url('image/drop-down.png');
+	background-repeat:no-repeat;	
+	float:right;
+	width:60px;
+	height:60px;	
+	background-position: center center;		
+ }
+ .look2
+ {
+ 	background-image:url('image/drop-down.png');
+	background-repeat:no-repeat;	
+	float:right;
+	width:60px;
+	height:60px;	
+	background-position: center center;		
+ }
+
+ .down{
+ 	background-image:url('image/pull-down.png');
+	
+ }
+ .off
+ {
+ 	display:none;
+ }
+.link{
+  text-decoration:none;
+  margin-left:50px;
+  font-size:20px;
+    algin:center;
+   font-family:Geneva, Arial, Helvetica, sans-serif;}
+   .a{
+  color:#0000CC;
+   }
+ .title
+ {
+ border-bottom: #BCBCBC solid 2px;
+ }
+ .clr
+ {
+ clear:both;
+ }
+ .title1{
+  border-bottom:#808080 solid 2px;
+ }
+.past{
+  border-bottom:#C3C3C3 solid 2px;
+}
+.year{
+ padding:20px;
+ border-bottom:#D7D7D7 solid 1px;
+}
+.detailed1{
+padding:20px;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".period").click (function(){
+   <!-- $("#detailed").toggle();-->
+  	$(this).find(".detailed").slideToggle(800);
+  	$(this).find(".look").toggleClass('down');	
+  });
+  $(".past").click (function(){
+   <!-- $("#detailed").toggle();-->
+  	$(this).siblings(".detailed").slideToggle(800);
+  	$(this).find(".look").toggleClass('down');	
+  });
+   $(".title1").click (function(){
+   <!-- $("#detailed").toggle();-->
+  	$(this).find(".detailed1").slideToggle(800);
+  	$(this).find(".look1").toggleClass('down');
+ });
+ $(".title2").click (function(){
+   <!-- $("#detailed").toggle();-->
+  	$(this).find(".detailed2").slideToggle(800);
+  	$(this).find(".look2").toggleClass('down');
+ });
+});
+</script>

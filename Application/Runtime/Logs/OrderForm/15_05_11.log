@@ -1,0 +1,1296 @@
+[ 2015-05-11T08:30:20+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Submit/index.html?ids=6&counts=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-11T08:31:37+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Submit/index.html?ids=7&counts=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-11T16:51:05+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T16:51:38+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('117','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431334298') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1052','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('117','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431334298') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1053','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431334298' WHERE `id` = 5 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T16:53:02+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','wx15a60486abf8f053','1236255202') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('118','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431334382') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1054','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('118','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431334382') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1055','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431334382' WHERE `id` = 5 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T16:54:37+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-32.860046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-32.860046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-32.850046s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('119','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431334477') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1056','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('119','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431334477') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1057','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431334477' WHERE `id` = 5 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T16:55:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-2.880004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-2.880004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-2.880004s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','wx15a60486abf8f053','1236255202') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('120','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431334493') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1058','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('120','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431334493') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1059','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 21 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431334552' WHERE `id` = 5 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T16:56:31+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.030000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025001s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('121','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431334555') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0000s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1060','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('121','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431334555') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0000s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1061','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431334591' WHERE `id` = 5 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T16:56:56+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('122','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431334594') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1062','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('122','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431334594') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1063','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Model\ShoppingCartModel.class.php 第 23 行.
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = null [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431334616' WHERE `id` = 5 [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T19:17:02+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013001s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0130s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','wx15a60486abf8f053','1236255202') [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('123','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431342723') [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0120s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1064','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0130s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('123','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431342723') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0110s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1065','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0120s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0120s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0110s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431342752' WHERE `id` = 5 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-11T19:32:06+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.3100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','&nbsp;&nbsp;&nbsp;&nbsp;','0','0','','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('125','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431343926') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1068','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 181 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('125','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431343926') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1069','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-11T21:41:35+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`buy_openid`,`creat_time`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','1431351695','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('132','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431351695') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1076','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('132','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431351695') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1077','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431351695' WHERE `id` = 5 [ RunTime:0.0100s ]
+
+[ 2015-05-11T21:45:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`buy_openid`,`creat_time`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','1431351916','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('133','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431351916') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1078','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('133','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431351916') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1079','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431351916' WHERE `id` = 5 [ RunTime:0.0100s ]
+
+[ 2015-05-11T21:46:41+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: totalDirectFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 209 行.
+NOTIC: [8] Undefined index: TotallineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 210 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`buy_openid`,`creat_time`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','1431352000','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('134','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431352000') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1080','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('134','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431352001') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1081','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0200s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431352001' WHERE `id` = 5 [ RunTime:0.0100s ]
+
+[ 2015-05-11T21:47:45+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: totalDirectFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 209 行.
+NOTIC: [8] Undefined index: TotallineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 210 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`buy_openid`,`creat_time`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','1431352065','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('135','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431352065') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1082','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('135','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431352065') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1083','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431352065' WHERE `id` = 5 [ RunTime:0.0100s ]
+
+[ 2015-05-11T21:48:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: totalDirectFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 209 行.
+NOTIC: [8] Undefined index: TotallineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 210 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`buy_openid`,`total_direct_fee`,`total_line_fee`,`creat_time`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','0','0','1431352102','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('136','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431352102') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1084','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('136','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431352102') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1085','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0200s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431352102' WHERE `id` = 5 [ RunTime:0.0100s ]
+
+[ 2015-05-11T21:49:54+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: totalDirectFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 209 行.
+NOTIC: [8] Undefined index: TotallineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 210 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`buy_openid`,`total_direct_fee`,`total_line_fee`,`creat_time`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','0','0','1431352194','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('137','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431352194') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0200s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1086','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('137','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431352194') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1087','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431352194' WHERE `id` = 5 [ RunTime:0.0200s ]
+
+[ 2015-05-11T21:51:30+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/OrderForm/Index/payNow.html?ids=53-12-49-6-27&counts=1-2-5-2-2&coupon=5&name=%E6%BD%98%E6%9D%B0&telephone=18502205022&address=%E5%A4%A9%E6%B4%A5%E5%B8%82&idNo=130225&XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Constant YZ_TEMPLATE already defined D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.3100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 49 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_goods` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 441 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 466 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_logistics` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_source` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 0 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: totalDirectFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 209 行.
+NOTIC: [8] Undefined index: TotallineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 210 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: direct_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 158 行.
+NOTIC: [8] Undefined index: purchasing_price D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined index: line_selling_commission D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 159 行.
+NOTIC: [8] Undefined variable: amountWay D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\SubmitController.class.php 第 178 行.
+SQL: SELECT * FROM `wemall_source` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_logistics` WHERE `mode` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_relation` (`payable`,`total_goods_fee`,`total_coupon`,`total_count`,`total_logistic_fee`,`total_amount`,`customer_address`,`customer_frontid`,`customer_backid`,`customer_idno`,`buy_openid`,`total_direct_fee`,`total_line_fee`,`creat_time`,`appid`,`mch_id`) VALUES ('400202','400200','0','3','2','0','天津市&nbsp;&nbsp;18502205022&nbsp;&nbsp;潘杰','0','0','130225','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','0','0','1431352290','wx15a60486abf8f053','1236255202') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('138','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国内保税直邮','中国','201','15','1','0','0','1',NULL,'1431352290') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1088','49','1','200','23','2','441','特价 巴西白间红尾 新手宠物蜘蛛活体3L幼体 浓厚的色彩 送8件套') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 49 [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: maxAmonut D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderForm\Controller\IndexController.class.php 第 182 行.
+SQL: INSERT INTO `wemall_order_form` (`payid`,`openid`,`logistics_mode`,`source`,`total_prices`,`weight`,`total_count`,`direct_fee`,`line_fee`,`logistic_fee`,`privilege_money`,`buy_time`) VALUES ('138','oZuoxt8tnEUUf6YPBG-mNPYjoKQA','国际直邮','中国','400001','400','2','0','0','1',NULL,'1431352290') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: INSERT INTO `wemall_order_goods` (`order_id`,`goods_id`,`quantity`,`price`,`ds_coefficient`,`ls_coefficient`,`focus_pictures`,`goods_name`) VALUES ('1089','6','2','200000','22','12','466',' 特价!成人摇椅藤椅躺椅摇摇椅逍遥椅老人椅阳台休闲椅午睡椅包邮  史无前例的低价！ ') [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_goods` [ RunTime:0.0200s ]
+SQL: UPDATE `wemall_goods` SET `sales_volume`=sales_volume+1 WHERE `id` = 6 [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_shopping_cart` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '49' [ RunTime:0.0100s ]
+SQL: DELETE FROM `wemall_shopping_cart` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' AND `product_number` = '6' [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wemall_coupon` SET `state`='3',`use_time`='1431352290' WHERE `id` = 5 [ RunTime:0.0100s ]
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <title><block name="title">{$title}</block></title>
+        
+        <foreach name="YZCss" item="value" key="key">
+            <link href="{$value}" rel="stylesheet" type="text/css">
+        </foreach>
+        <foreach name="YZJs" item="value" key="key">
+            <script type="text/javascript" src="{$value}" ></script>
+        </foreach>
+        
+        <block name="head">{$head}</block>
+    </head>
+    <body>
+        <div class="container">
+            <block name="body"></block>
+        </div>
+    </body>
+</html>

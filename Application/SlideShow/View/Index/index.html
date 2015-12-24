@@ -1,0 +1,40 @@
+<a href="{$addSlideUrl}"><h4>添加</h4></a>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>名称</th>
+            <th>图片</th>
+            <th>商品</th>
+            <th>权重</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+    <php>$i=1;</php>
+    <foreach name="SlideShow" item="value" >
+        <tr>
+            <td>{$value['slide_name']}</td>
+            <td><img src="{$value.attchment_id.url}" style="max-width: 90px;"></img></td>
+            <td>{$value['describe']}</td>
+            <td>{$value['weight']}</td>
+            <td>{$value['status']}</td>
+            <td>
+                <a onclick="#" href="{$value.actionUrl.edit}">
+                    <button class="btn btn-mini btn-primary" type="button">
+                        修改
+                    </button>
+                </a>
+                <a onclick="#" href="{$value.actionUrl.delete}">
+                    <button class="btn btn-mini btn-danger" type="button">
+                        删除
+                    </button>
+                </a>
+            </td>
+        </tr>
+    </foreach>
+</tbody>
+</table>
+<div class="pagination">{$page}</div>
+
+

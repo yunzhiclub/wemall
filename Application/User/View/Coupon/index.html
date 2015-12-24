@@ -1,0 +1,95 @@
+
+<div class="row clearfix">
+    <div class="col-xs-12 column">
+        <div class="panel-group" id="panel-675075">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                         <a class="panel-title" data-toggle="collapse" data-parent="#panel-675075" href="#panel-element-870696">未使用的优惠券</a>
+                </div>
+                <div id="panel-element-870696" class="panel-collapse in">
+                        <div class="panel-body">
+                                <table class="table">
+				<thead>
+					<tr>
+						<th>
+							序号
+						</th>
+						<th>
+							过期时间
+						</th>
+						<th class="text-right">
+							优惠金额
+						</th>
+						<th>
+							状态
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+                                <foreach name="unUsedCoupons" item="value">
+					<tr>
+						<td>
+							{++$i}
+						</td>
+						<td>
+							{$value.end_time|date="Y-m-d",###}
+						</td>
+						<td  class="text-right">
+                                        {$value.cover|format_money}
+						</td>
+						<td>
+                                        <eq name="value.is_freezed" value="0">
+                                        正常
+                                        <else/>
+                                        冻结
+                                        </eq>
+						</td>
+					</tr>
+                                </foreach>
+				</tbody>
+			</table>
+                        </div>
+                </div>
+        </div>
+        <div class="panel panel-default">
+                <div class="panel-heading">
+                         <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-675075" href="#panel-element-718805">已使用的优惠券</a>
+                </div>
+                <div id="panel-element-718805" class="panel-collapse collapse">
+                        <div class="panel-body">
+                                <table class="table">
+				<thead>
+					<tr>
+						<th>
+							序号
+						</th>
+						<th>
+							使用时间
+						</th>
+						<th class="text-right">
+							优惠金额
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name="unUsedCoupons" item="value">
+					<tr>
+						<td>
+							{++$j}
+						</td>
+						<td>
+							{$value.use_time|date="Y-m-d",###}
+						</td>
+						<td class="text-right">
+							{$value.cover|format_money}
+						</td>
+					</tr>
+                                </foreach>
+				</tbody>
+			</table>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

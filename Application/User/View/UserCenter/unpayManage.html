@@ -1,0 +1,56 @@
+                <div class="row"> <!--最大的行-->
+                    <div class="col-xs-12"><!--最大列-->
+                        <foreach name="list" item="order">
+                            <div class="row big-box"><!--第二行-->
+                                <div class="col-xs-12"><!--第二列-->
+                                    <div class="row"><!--标题行-->
+                                        <div class="col-xs-6 num">订单编号:{$order.id}</div>
+                                        <div class="col-xs-6">
+                                            <div class="row">
+                                                <!--<div class="col-xs-2"></div>-->
+                                                <div class="col-xs-5"><a href="{$tocancel}{$order.id}"><button class="btn btn-danger btn-mini" type="button">取消订单</button></a></div>
+                                                <div class="col-xs-5"><a href="{$topay}{$order.id}"><button class="btn btn-warning btn-mini" type="button">立即支付</button></a></div>
+                                                <!--已关闭 & 已完成订单end-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <foreach name="order.order_form" item="value">
+                                        <div class="row"><!--详情行-->
+                                            <div class="col-xs-12"><!--详情列-->
+                                                <a class="touch" href="{$url}{$value.id}"><!--详情标签-->
+                                                    <div class="row"><!--编号行-->
+                                                        <div class="col-xs-12"><!--编号列-->
+                                                            <p class="id">订单编号：{$value.id}</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row"><!--状态行-->
+                                                        <div class="col-xs-12"><!--状态列-->
+                                                            <p class="price">订单状态：<strong>未支付</strong></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row"><!--总数行-->
+                                                        <div class="col-xs-12"><!--总数列-->
+                                                        <p>商品总数：{$value.total_count}</p>
+                                                        <!--<span class="more"><span class="inner"></span></span>-->
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </foreach>
+                                    <div class="row"><!--总额行-->
+                                        <div class="col-xs-12"><!--总额列-->
+                                            <p class="date">订单总额：<php>echo format_money($order[count]);</php>元</p>
+                                        <div class="clr"></div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                           <p class="shipped">{$order_data.order_status}</p> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </foreach>
+                    </div>
+                </div>
+		<!--订单基本信息end-->
+		<!--已关闭 & 已完成订单begin-->

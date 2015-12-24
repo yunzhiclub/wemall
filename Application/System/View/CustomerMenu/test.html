@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script type="text/javascript" src="/wemall/WeiPHP/js/jquery1.11.2.js" ></script> 
+    </head> 
+    <body>
+      <form action="{$url}" id="form1" name="form1" encType="multipart/form-data"   method="post" target="hidden_frame" >       
+     <input type="file" id="file" name="file" style="width:450">
+     <iframe class="iframe" name='hidden_frame' id="hidden_frame" ></iframe>
+     <input type="hidden" id="keyFlag" name="keyFlag" value="{$keyFlag}" />
+     <a href="#" onclick="test()">上传</a>
+     <INPUT type="submit" value="上传文件"><span id="msg"></span>       
+     <br>       
+     <font color="red">支持JPG,JPEG,GIF,BMP,SWF,RMVB,RM,AVI文件的上传</font>    
+     <input type="text" id="id" name="id" />
+     <input type="text" id="name" name="name"/>
+            
+      </form>
+    </body>
+</html>       
+<script>
+    function test()
+    {
+        $("form").submit();
+        var $url;
+        $url = "{$url}";
+        $.post(
+                $url,
+                $data,
+                function(data,status){
+                  alert(data);
+                });
+    }
+</script>
+<style>
+    .iframe{
+        
+    }
+</style>

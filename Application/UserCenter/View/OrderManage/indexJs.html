@@ -1,0 +1,50 @@
+<script>
+//取消订单
+function cancelOrder($this)
+{
+    var r=confirm("相同支付编号的订单将被同时取消，请确认");
+    if (r==true)
+    {
+        var payid = $this.attr("data-payid");
+        var cancelUrl = "{$cancelOrderUrl}?payid="+payid;     
+        $(".container-fluid").showLoading();
+        $.get(
+            cancelUrl,
+            function(data){
+                if(data=true)
+                {
+                    $(".cancel-payid-"+payid).hide();
+                    $(".finish-payid-"+payid).hide();
+                    $(".container-fluid").hideLoading();
+                }
+            }
+        );
+    }    
+}
+
+//确认订单
+function finishOrder($this)
+{
+    var orderid = $this.attr("data-id");
+    var url = "{$finishOrderUrl}?orderid="+orderid;
+    $(".container-fluid").showLoading();
+    $.get(
+        url,
+        function(data){
+            if(data=true)
+            {
+                $this.hide();
+                alert("订单已确认");
+                $(".container-fluid").hideLoading();
+            }
+        }
+    );
+}
+
+//提示信息BOOTSTRAP 初始化
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+//alert("hello");
+
+</script>

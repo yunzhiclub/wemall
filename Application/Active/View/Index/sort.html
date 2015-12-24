@@ -1,0 +1,34 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+	<tr>
+            <th>客户名称</th>
+            <th><a href='?orderby=sore&key=direct'>直销业绩</a></th>
+            <th><a href='?orderby=sore'>下线业绩</a></th>
+            <th>业绩汇总</th>
+            <th><a href='?orderby=time'>关注时间</a></th>
+            <th>操作</th>
+	</tr>
+    </thead>
+    <tbody>
+        <php>$i=1;</php>
+	<foreach name="customerList" item="value" key="key">
+        <tr>
+            <td>{$value._customer.nickname}</td>
+            <td>{$value['_sore']['direct_total_fee']|format_money}元</td>
+            <td>
+                {$value['_sore']['line_total_fee']|format_money}元
+            </td>
+            <td>{$value['_sore']['direct_total_fee']+$value['_sore']['line_total_fee']|format_money}元</td>
+            <td>{$value._customer.subscribe_time|date="y-m-d H:s",###}</td>
+            <td><a href="{$value.sendCouponUrl}">
+                    <button class="btn btn-mini btn-primary" type="button">
+                        发放优惠券
+                    </button>
+                </a>
+            </td>
+                                                        
+        </tr>
+        </foreach>
+    </tbody>
+</table>
+<div class="pagination" align="center">{$page}</div>

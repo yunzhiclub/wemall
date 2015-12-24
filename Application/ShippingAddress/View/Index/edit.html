@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+梦云智工作室
+-->
+<html>
+    <head>
+      <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="javascript" src="./../../../../../WeiPHP/js/shippingaddress/PCASClass.js"></script>
+         <style type="text/css">
+             li{
+                list-style: none;
+                height: 30px;
+            }
+            input{
+                
+                border-radius: 2px;
+            }
+            .input{
+                height: 20px;
+                color: #000000;
+                border-radius: 2px;
+            }
+            .body{
+                border-color: #9cffff;
+                border-width: 2px;
+                border-style: solid;
+                height: 400px;
+                width: 800px;
+                margin: auto;
+                background-color: #ffffff;
+                
+                
+            }
+            .container{
+                padding:3px 6px 3px 6px;
+                margin:0px;
+                font:14px Arial;
+            }
+            .need{
+                color: red;
+            }
+            input.txt{
+                background-color:#ffffff;
+                border: 1px inset #000000;
+            }
+            input.btn{
+                color: #ffffff;
+                background-color:  #7ecef4;
+                border: 0px outset #00008b;
+                padding: 1px 2px 3px 4px;
+            }
+            input.btn1{
+                color: #000000;
+                background-color:  #eeeeee;
+                border: 0px outset #00008b;
+                padding: 1px 2px 3px 4px;
+            }
+            .son{
+                margin-left: 700px;
+            }
+            .del{
+                margin-left: 45px;
+            }
+            .txts{
+                background-color:#ffffff;
+                border: 1px inset #000000;
+                width: 250px;
+                height: 80px;
+                wrap:physical;
+                float: left;
+            }
+            .address{
+                height: 100px;
+                text-indent: 3em;
+            }
+            .name{
+                text-indent: 5em;
+            }
+            .phone{
+                text-indent: 5em;
+            }
+            .num{
+                text-indent: 2em;
+            }
+            .id{
+                text-indent: 1em;
+            }
+            .adr{
+                padding-top: 0px;
+                width: 115px;
+                float: left;
+            }
+            a,body,select{font-size:12px;text-decoration:none;}
+            a,pre{color:#808080;}
+            body{background:#efefef;}
+        </style>
+        
+    </head>
+   
+    <body>
+        <div class="body">
+            <form class="container">
+                <ul>
+                    <li>请设置收货地址：<select name="province3"></select><select name="city3"></select><select name="area3"></select></select></li>
+                    <li class="address"><div class="adr">详细地址：</div><textarea class="txts"></textarea><span class="need">*</span><div style="clear:both"></div></li>
+                    <li class="name">姓名：<input class="txt"><span class="need">*</span></li>
+                    <li class="phone">手机：<input class="txt"><span class="need">*</span></li>
+                    <li class="num">身份证号码：<input class="txt"/><span class="need">*</span></li>
+                    <li class="id">身份证正面ID：<input type="hidden"/>
+                        <input type="submit" id="btnsubmit" value="浏览" class="btn1"/>
+                        <input type="submit" id="btnsubmit" value="上传" class="btn1"/></li>
+                    <li class="id">身份证反面ID：<input type="hidden"/>
+                        <input type="submit" id="btnsubmit" value="浏览" class="btn1"/>
+                        <input type="submit" id="btnsubmit" value="上传" class="btn1"/></li>
+                </ul>
+            </form>
+            <div class="del">说明：所有<span class="need">*</span>均为必填项</div>
+            <div class="son"><p><input type="submit" id="btnsubmit" value="保存" class="btn"></p></div>
+        </div>
+       <script language="javascript" defer>new PCAS("province3","city3","area3");</script>
+    </body>
+</html>

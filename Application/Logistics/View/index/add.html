@@ -1,0 +1,25 @@
+<!--
+梦云智工作室
+ 
+-->
+<form class="form-horizontal" method="post" action="{$actionUrl}"/>
+<fieldset>
+    <legend> 添加物流方式</legend>
+    <div class="control-group">
+        <label class="control-label" >物流名称</label>
+        <div class="controls">
+            <input type="text" name="name" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">物流代码</label>
+        <div class="controls">
+<!--            <input type="text" name="mode" value="{$Num}" readonly="readonly" >-->
+                <input type="text" name="mode" value="{$Num}"  readonly="readonly" >
+        </div>
+    </div>
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">保存</button> <button type="button" class="btn" onclick="location = '{$url}'">取消</button>
+    </div>
+</fieldset>
+</form>

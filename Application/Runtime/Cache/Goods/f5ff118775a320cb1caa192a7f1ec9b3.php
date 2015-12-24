@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><p>对不起，您所查看的商品不存在或已下架</p>

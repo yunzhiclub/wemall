@@ -1,0 +1,47 @@
+
+<script type="text/javascript">
+Zepto(function($){
+   var $nav = $('.global-nav'), $btnLogo = $('.global-nav__operate-wrap');
+   //点击箭头，显示隐藏导航
+   $btnLogo.on('click',function(){
+     if($btnLogo.parent().hasClass('global-nav--current')){
+       navHide();
+     }else{
+       navShow();
+     }
+   });
+   var navShow = function(){
+     $nav.addClass('global-nav--current');
+   }
+   var navHide = function(){
+     $nav.removeClass('global-nav--current');
+   }
+
+   $(window).on("scroll", function() {
+		if($nav.hasClass('global-nav--current')){
+			navHide();
+		}
+	});
+})
+function get_search_box(){
+	try{
+		document.getElementById('get_search_box').click();
+	}catch(err){
+		document.getElementById('keywordfoot').focus();
+ 	}
+}
+jquery(function() {
+  jquery('nav#menu').mmenu();
+  jquery('#get_search_box').click(function(){
+    jquery(".mm-page").children('div').hide();
+    jquery("#main-search").css('position','fixed').css('top','0px').css('width','100%').css('z-index','999').show();
+    //$('#keywordBox').focus();
+  })
+  jquery("#main-search .close").click(function(){
+    jquery(".mm-page").children('div').show();
+    jquery("#main-search").hide();
+  })
+});
+		var global_loading=document.getElementById("global_loading");
+		global_loading.parentNode.removeChild(global_loading);
+</script>   

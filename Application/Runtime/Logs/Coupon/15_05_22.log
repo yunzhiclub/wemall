@@ -1,0 +1,28 @@
+[ 2015-05-22T08:50:06+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Coupon/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE STATE = 0 ORDER BY ID DESC [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-22T08:50:44+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/Coupon/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_coupon` WHERE STATE = 0 ORDER BY ID DESC [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+

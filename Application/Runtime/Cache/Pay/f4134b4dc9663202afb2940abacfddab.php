@@ -1,0 +1,27 @@
+<?php if (!defined('THINK_PATH')) exit();?><style>
+.vline{
+    border-left:4px solid green;
+    padding-left:0px;
+    height:24px;
+    line-height: 24px;
+    margin-left:15px;
+}
+.paycenter{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.orderinfo{
+    padding-top:8px;
+}
+.wxpay,.otherpay{
+    line-height: 50px;
+    height: 50px;
+    border-bottom:1px dotted #f2f2f2;
+    
+}
+.tips{
+    line-height: 20px;
+}
+.row img{height: 50px;}
+
+</style>

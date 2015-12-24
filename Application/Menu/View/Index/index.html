@@ -1,0 +1,45 @@
+<h4><a href="{$addRootMenuUrl}">添加根菜单</a></h4>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>序号</th>
+            <th>标题</th>
+            <th>URL</th>
+            <th>开发模式</th>
+            <th>排序</th>
+            <th>隐藏</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <php>$i=1;</php>
+    <tbody>
+    <foreach name="MenuList" item="value" key="key">
+    <tr>
+        <td>{$i++}</td>
+        <td style="text-align: left"><php>for($j=0;$j<$value['level'];$j++) echo '|--';</php>{$value.title}</td>
+        <td>{$value.module}/{$value.controller}/{$value.action}</td>
+        <td><if condition="$value.is_dev eq 0">否<else />是</if></td>
+        <td>{$value.sort}</td>
+        <td><if condition="$value.hide eq 0">否<else />是</if></td>
+    <td>
+        <a href="{$value.actionUrl.edit}">
+            <button class="btn btn-mini btn-primary" type="button">
+                编辑
+            </button>
+        </a>
+        <a href="{$value.actionUrl.addSub}">
+            <button class="btn btn-mini" type="button">
+                添加子菜单
+            </button>
+        </a>
+        <a href="{$value.actionUrl.delete}">
+            <button class="btn btn-mini btn-danger" type="button">
+                删除
+            </button>
+        </a>
+    </td>
+    </tr>
+    </foreach>
+</tbody>
+    </table>					
+<div class="pagination">{$page}</div>

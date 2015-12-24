@@ -1,0 +1,667 @@
+[ 2015-05-27T08:45:40+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/UserCenter/OrderManage/unpayedOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.030000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' ORDER BY id desc  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1348  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1347  [ RunTime:0.0200s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1337  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1336  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1334  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1333  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1331  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1329  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1328  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1324  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1323  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1320  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1319  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 345 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 344 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 334 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 333 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 329 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 326 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 322 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 321 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 318 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 317 LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.780001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.770001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.790001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.790001s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\UserCenter\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.790001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.790001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-05-27T16:30:24+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/UserCenter/OrderManage/unpayedOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.030000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.030000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.030000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.030000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.030000s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' ORDER BY id desc  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1364  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1362  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1355  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1354  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1350  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1348  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1347  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1337  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1336  [ RunTime:0.3100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1334  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1333  [ RunTime:0.0200s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1331  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1329  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1328  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1324  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1323  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1320  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1319  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 360 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 358 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 354 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 354 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 347 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 345 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 344 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 334 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 333 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 329 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 326 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 322 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 321 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 318 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 317 LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.390002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.330002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.400002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.410002s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\UserCenter\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.400002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.410002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-27T16:30:52+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/UserCenter/OrderManage/unpayedOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.026002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025002s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' ORDER BY id desc  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1364  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1362  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1355  [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1354  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1350  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1348  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1347  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1337  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1336  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1334  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1333  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1331  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1329  [ RunTime:0.0060s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1328  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1324  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1323  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1320  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1319  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 360 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 358 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 354 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 354 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 347 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 345 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 344 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 334 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 333 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 329 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 326 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 322 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 321 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 318 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 317 LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.797046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.783045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.802046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.814047s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\UserCenter\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.805046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.813047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-27T17:06:49+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/UserCenter/OrderManage/unpayedOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' ORDER BY id desc  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_order_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_attachment` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1364  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1362  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1355  [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1354  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1350  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1348  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1347  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1337  [ RunTime:0.0280s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1336  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1334  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1333  [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1331  [ RunTime:0.0120s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1329  [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1328  [ RunTime:0.0120s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1324  [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1323  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1320  [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_goods` WHERE `order_id` = 1319  [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant foucsPicId - assumed 'foucsPicId' D:\xampp\htdocs\wemall\ThinkPHP\Application\OrderGoods\Model\OrderGoodsModel.class.php 第 25 行.
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_attachment` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 360 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 358 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 354 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 354 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 347 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 345 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 344 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 334 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 333 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 331 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 329 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 327 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 326 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 322 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 321 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 318 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `id` = 317 LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.085062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.057061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.093063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.106063s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\UserCenter\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.095063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.106063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

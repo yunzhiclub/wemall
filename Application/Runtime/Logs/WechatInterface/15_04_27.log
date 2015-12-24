@@ -1,0 +1,36 @@
+[ 2015-04-27T21:13:30+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WechatInterface/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0090s ]
+SQL: UPDATE `wemall_customer` SET `subscribe`='1',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`nickname`='潘杰',`sex`='1',`city`='河北',`province`='天津',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLBCjgjWGsBRDvsbYzEnsgdZyMUScoWaewZiaTnuNMjWpUSKrgSQ0kV1MZ86yqIwK7prFicL8uRaKaFg/0',`subscribe_time`='1429855814',`remark`='' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-27T21:13:43+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WechatInterface/Index/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `wemall_customer` SET `subscribe`='1',`openid`='oZuoxt8tnEUUf6YPBG-mNPYjoKQA',`nickname`='潘杰',`sex`='1',`city`='河北',`province`='天津',`country`='中国',`headimgurl`='http://wx.qlogo.cn/mmopen/ajNVdqHZLLBCjgjWGsBRDvsbYzEnsgdZyMUScoWaewZiaTnuNMjWpUSKrgSQ0kV1MZ86yqIwK7prFicL8uRaKaFg/0',`subscribe_time`='1429855814',`remark`='' WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-04-27T21:32:48+08:00 ] 127.0.0.1 /wemall/weiphp/index.php/WechatInterface/Index/index.html?XDEBUG_SESSION_START=netbeans-xdebug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

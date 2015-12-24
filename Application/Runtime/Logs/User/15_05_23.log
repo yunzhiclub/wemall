@@ -1,0 +1,744 @@
+[ 2015-05-23T16:44:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011001s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432370656' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432370656' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432370656' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.432025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.429025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.432025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.440025s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.433025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.442025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.452026s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.443025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.452026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-23T16:47:16+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432370836' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432370836' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432370836' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.608401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.608401s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.624001s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.608401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.624001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-23T17:01:14+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432371674' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432371674' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432371674' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.546001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.546001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.546001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.561601s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.561601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.577201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.577201s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.577201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.577201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-23T17:38:05+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012001s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432373885' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432373885' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432373885' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.541031s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.539031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.542031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.548032s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.543031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.551032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.558032s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.552032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.560032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-23T17:51:55+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011001s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432374715' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432374715' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0220s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432374715' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.519030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.514029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.520030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.533030s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.522030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.540031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.550031s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.541031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.551031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-23T17:55:22+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011001s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0990s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0620s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432374921' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0460s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432374921' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0540s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432374921' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0570s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0240s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.116064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.110063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.121064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.136065s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.124064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.138065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.147066s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.140065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.147066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-23T17:59:27+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0312s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432375166' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432375166' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432375166' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0468s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.2028s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.733201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.717601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.733201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.748801s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.733201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.748801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.764401s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.748801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.764401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-23T18:00:48+08:00 ] 127.0.0.1 /wemall/WeiPHP/index.php/User/UserCenter/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012001s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wemall_order_form` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 0 AND `is_cancel` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wemall_order_form` WHERE `is_pay` = 1 AND `is_cancel` = 0 AND `is_finish` = 0 AND `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wemall_config` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 69 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 90 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 100 行.
+NOTIC: [8] Undefined variable: beginDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: endDate D:\xampp\htdocs\wemall\ThinkPHP\Application\Config\Model\ConfigModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `wemall_order_relation` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432375248' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_customer` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA' LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wemall_customer` WHERE `parentid` = 26  [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432375248' AND `buy_openid` = 'oZuoxt8tnEUUf6YPBG-mNPYjoKQA'  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wemall_order_relation` WHERE `is_payed` = 1 AND `is_cancel` = 0 AND `payed_time` BETWEEN '1430323200' AND '1432375248' AND `buy_openid` = 'oZuoxt244k6RpXL1q5BHiShF1CQE'  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wemall_rebate` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 0 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wemall_rebate` WHERE `top_money` <= 568277 AND `type` = 1 ORDER BY top_money desc LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: count D:\xampp\htdocs\wemall\ThinkPHP\Application\User\Controller\UserCenterController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.393022s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.388022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.390022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.400023s ]
+NOTIC: [8] Undefined variable: lineFee D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 79 行.
+NOTIC: [8] Undefined variable: line D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\cceb317778cdaec8ec9f40a28912348a.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.392023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.401023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.412023s ]
+NOTIC: [8] Undefined variable: YZTitle D:\xampp\htdocs\wemall\ThinkPHP\Application\Runtime\Cache\User\f64d738dec9062ca568444d9a07e17dd.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.403023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.411024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
